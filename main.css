@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300');
+
+
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+font-family: 'Oswald', sans-serif;
+}
+
+@media only screen and (min-width : 992px){
+#landingPage{
+  display : grid;
+  grid-template-columns : 1fr 1fr 1fr 1fr;
+  grid-template-rows : 1fr 1fr 1fr 1fr;
+  height :100%;
+  width:100%;
+  background:url("photos/background.png") center no-repeat;
+}
+
+#logo{
+    grid-row: 1/3;
+    grid-column: 2/3;
+    background:url(White_logo.png) center no-repeat;
+    background-size: 40%;
+
+}
+
+#vajraTitle{
+  grid-row:2/3;
+    grid-column: 2/3;
+    margin-top:30px;
+    background: url("photos/Untitled-1.png") center no-repeat;
+    background-size:contain;
+    z-index: 1;
+}
+
+
+#ronaldo{
+    display:block;
+     grid-row:1/6;
+    grid-column: 1/2;
+    background:  url("photos/players/1a0ecd929f63806f0f0eb06900cbf17a.png") no-repeat;
+    background-position: right;
+    background-size:150%;
+    opacity: 0;
+    animation: imageAnimation 30s linear infinite 0s;   
+  animation-delay: 6s;
+}
+
+#dhoni{
+    display:block;
+     grid-row:1/6;
+    grid-column: 1/2;
+    background:  url("photos/players/Dhoni.png") no-repeat;
+    background-position: right;
+    background-size:130%;
+    opacity: 0;
+     animation: imageAnimation 30s linear infinite 0s;
+    animation-delay: 12s;
+    
+}
+
+#basketBall{
+       display:block;
+     grid-row:1/6;
+    grid-column: 1/3;
+    background:  url("photos/players/lebron-james-png-38831.png") no-repeat;
+    background-position: right;
+    margin-right: 100px;
+    background-size:150%;
+    opacity:0;
+   animation: imageAnimation 30s linear infinite 0s;
+    animation-delay: 18s;
+
+    
+}
+
+#tableTennis{
+    display:block;
+     grid-row:1/6;
+    grid-column: 1/3;
+    background:  url("photos/players/tabletennis.png") no-repeat;
+    background-position: center;
+    margin-right: 100px;
+    background-size:100%;
+    opacity: 0;
+ animation: imageAnimation 30s linear infinite 0s;
+    animation-delay: 24s;
+}
+
+#volley{
+   display:block;
+     grid-row:1/6;
+    grid-column: 1/3;
+    background:  url("photos/players/volley.png") no-repeat;
+    background-position: left;
+    //margin-right: 100px;
+    background-size:100%;
+    opacity: 0;
+    animation: imageAnimation 30s linear infinite 0s;
+    animation-delay: 30s;
+    
+}
+
+#menuArea {
+    grid-column: 2/3;
+    grid-row:3/5;     
+      
+}
+
+@keyframes displayOnOff{
+    0%{
+        opacity:0;
+    }50%{
+        opacity:1;
+    }100%{
+        opacity: 0;
+    }
+}
+
+
+.opBox{
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    //display: none;
+    margin: auto;
+    width:250px;
+    height:40px;
+    margin-top:10px;
+    border:1px solid white;
+        transform: skew(30deg);
+    background-color: #171616;
+}
+
+.opBox p{
+    text-align: center;
+    color:white;
+    margin-top:2px;
+    font-size:25px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: skew(-30deg);
+}
+
+.opBox:hover{
+    background: #fbcf1e;
+
+}
+
+.opBox p:hover{
+    color:black;
+}
+
+
+#socialMedia{
+    grid-row:4/5;
+    grid-column:4/5;
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+#socialMedia #facebook{
+    grid-row:3/4;
+    grid-column: 1/2;
+    margin-left:50px;
+}
+
+#socialMedia #instagram{
+    grid-row:3/4;
+    grid-column:2/3;
+    
+}
+
+#socialMedia #twitter{
+    grid-row:3/4;
+    grid-column : 3/4;
+    margin-left:-50px;
+}
+
+.fa-4x{
+    color:white;
+    //font-size:1em;
+}
+    
+    .fa-facebook-official{
+        font-size:2em;
+    }
+
+@keyframes imageAnimation { 
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+}
+
+
+
+ @media only screen and (max-width : 480px) {
+ #landingPage{
+   display : grid;
+  grid-template-columns : 1fr 1fr 1fr 1fr;
+  grid-template-rows : 1fr 1fr 1fr 1fr 1fr;
+  height:1024px;
+  width:100%;
+  background:url("photos/mobilebackground2.png") center no-repeat;
+     //background-size:100%;
+}
+     
+     #logo{
+    grid-row: 1/2;
+    grid-column: 2/4;
+    background:url(White_logo.png) center no-repeat;
+    background-size: 70%;
+
+}
+     
+     #vajraTitle{
+  grid-row:2/3;
+    grid-column: 2/4;
+    margin-top:-170px;
+    background: url("photos/Untitled-1.png") center no-repeat;
+    background-size:contain;
+    z-index: 1;
+         
+}
+     #menuArea {
+    grid-column: 2/4;
+    grid-row:3/4;     
+      margin-top: -100px;
+}
+     .opBox{
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    //display: none;
+    margin: auto;
+    width:200px;
+    height:50px;
+    margin-top:5px;
+    border:1px solid white;
+        transform: skew(30deg);
+    background-color: #171616;
+}
+
+.opBox p{
+    text-align: center;
+    color:white;
+    margin-top:2px;
+    font-size:26px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: skew(-30deg);
+}
+
+.opBox:hover{
+    background: #fbcf1e;
+
+}
+
+.opBox p:hover{
+    color:black;
+}
+     
+     #socialMedia{
+         grid-row:5/6;
+         grid-column: 1/2;
+         display:grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr;
+         
+     }
+     
+     #facebook{
+         grid-row:1/2;
+         grid-column: 1/2;
+         margin-left:20px;
+     }
+     
+     
+     #instagram{
+          grid-row:2/3;
+         grid-column: 1/2;
+        margin-left:20px;
+
+     }
+     
+     #twitter{
+          grid-row:3/4;
+         grid-column: 1/2;
+        margin-left:20px;
+
+     }
+     .fa-4x{
+    color:#fbcf1e;
+         font-size:2em;
+}
+
+     #ronaldo{
+    display:none;
+ 
+}
+
+#dhoni{
+    display:none;
+
+    
+}
+
+#basketBall{
+       display:none;
+  
+
+    
+}
+
+#tableTennis{
+    display:none;
+   
+}
+
+#volley{
+   display:none;
+
+    
+}
+}
+
+/*
+@media only screen and (max-width : 992px) {
+    #landingPage{
+  display : grid;
+  grid-template-columns : 1fr 1fr 1fr 1fr;
+  grid-template-rows : 1fr 1fr 1fr 1fr;
+  height :100%;
+  width:100%;
+  background:#161616;
+}
+    }
+*/
