@@ -12,8 +12,32 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
     background: transparent;
 font-family: 'Oswald', sans-serif;
 }
+@media only screen and (min-width : 1200px){
+    #landingPage{
+  display : grid;
+  grid-template-columns : 1fr 1fr 1fr 1fr;
+  grid-template-rows : 1fr 1fr 1fr 1fr;
+  height :100%;
+  width:100%;
+  background:green;
+}
+}
 
-@media only screen and (min-width : 992px){
+
+
+@media only screen and (min-width : 480px){
+    #landingPage{
+  display : grid;
+  grid-template-columns : 1fr 1fr 1fr 1fr;
+  grid-template-rows : 1fr 1fr 1fr 1fr;
+  height :100%;
+  width:100%;
+  background:url("photos/background908.png") center no-repeat;
+}
+}
+
+
+@media only screen and (min-width : 768px){
 #landingPage{
   display : grid;
   grid-template-columns : 1fr 1fr 1fr 1fr;
@@ -244,6 +268,22 @@ font-family: 'Oswald', sans-serif;
     grid-row:3/4;     
       margin-top: -100px;
 }
+     
+     #AnnualSports{
+         font-size: 30px;
+         margin-top:-200px;
+         grid-row:4/5;
+         grid-column: 2/4;
+         top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    //display: none;
+    margin: auto;
+         color:white;
+         text-align: center;
+     }     
+     
      .opBox{
     top:0;
     bottom: 0;
@@ -275,6 +315,8 @@ font-family: 'Oswald', sans-serif;
     background: #fbcf1e;
 
 }
+     
+     
 
 .opBox p:hover{
     color:black;
@@ -344,15 +386,4 @@ font-family: 'Oswald', sans-serif;
 }
 }
 
-/*
-@media only screen and (max-width : 992px) {
-    #landingPage{
-  display : grid;
-  grid-template-columns : 1fr 1fr 1fr 1fr;
-  grid-template-rows : 1fr 1fr 1fr 1fr;
-  height :100%;
-  width:100%;
-  background:#161616;
-}
-    }
-*/
+
