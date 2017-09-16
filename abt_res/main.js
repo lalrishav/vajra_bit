@@ -5,6 +5,7 @@ $(document).ready(function() {
       var active3 = false;
       var active4 = false;
       var active5 = false;
+      let c = 0;
     
         $('.topLeftMenu').on('click', function() {
         
@@ -25,6 +26,21 @@ $(document).ready(function() {
         active5 = !active5;
           
         });
+    $('.mask2').on('click', function() {
+        c++;
+        if((c%2)!==0){
+          $('#aboutArea').css('filter', 'blur(4px)');
+            $('#aboutAreaMob').css('filter', 'blur(4px)');
+          }
+        if(c%2===0){
+          
+            $('#aboutArea').css('filter', '');
+            $('#aboutAreaMob').css('filter', '');
+        
+        }
+      });
+    
+    
     });
 
     $('.flip-container1').delay(2800).queue(function(){

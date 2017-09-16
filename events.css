@@ -1,5 +1,4 @@
 
-
 @media only screen and (min-width:480px){
    
     #eventsPage{
@@ -11,6 +10,29 @@
         background: url(photos/newbgs/DesktopHDotherPages1366.png) center no-repeat;
         background-size:cover;
     }
+    #pageName{
+      grid-column: 7/7;
+      
+    }
+    
+     #footerLogo{
+        grid-row: 7/10;
+grid-column: 9/21;
+background: url("vajranew.png") center no-repeat;
+    background-size: auto auto;
+background-size: auto auto;
+background-size: 17%;
+margin-top: 92px;
+    }
+    
+    
+    #pageName p{
+             font-size: 100px;
+        //transform: skew(-31deg);
+        color:#fbcf1e;
+        font-family: 'Abel','sans-serif' !important;
+        font-weight: 100;
+    }
     
     
     .eventsDiv{
@@ -18,7 +40,7 @@
         height:120px;
          transform: skew(-31deg) !important;
         //background:#fbcf1e;
-        border:2px solid #fbcf1e;
+        border:3px solid black;
     }
     .topleftMenu {
     top:34px;
@@ -176,11 +198,272 @@
         margin-top:-100px;
         margin-left: -45px;
     }
+    
+    
+       #basketballDiv #eventName{
+      opacity:0;
+        height: 100%;
+        width:100%;
+        margin-top:-121px;
+        z-index: 1;
+        background-color: rgba(251,207,30,0.6);
+      
+    }
+    
+     #footballDiv #eventName{
+      opacity:0;
+        height: 100%;
+        width:100%;
+        margin-top:-121px;
+        z-index: 1;
+        background-color: rgba(251,207,30,0.6);
+      
+    }
+    
+     #cricketDiv #eventName{
+      opacity:0;
+        height: 100%;
+        width:100%;
+        margin-top:-121px;
+        z-index: 1;
+        background-color: rgba(251,207,30,0.6);
+      
+    }
+    
+     #badmintonDiv #eventName{
+      opacity:0;
+        height: 100%;
+        width:100%;
+        margin-top:-121px;
+        z-index: 1;
+        background-color: rgba(251,207,30,0.6);
+      
+    }
+    
+     #volleyballDiv #eventName{
+      opacity:0;
+        height: 100%;
+        width:100%;
+        margin-top:-121px;
+        z-index: 1;
+        background-color: rgba(251,207,30,0.6);
+      
+    }
+    
+     #chessDiv #eventName{
+      opacity:0;
+        height: 100%;
+        width:100%;
+        margin-top:-121px;
+        z-index: 1;
+        background-color: rgba(251,207,30,0.6);
+      
+    }
+    
+     #tabletennisDiv #eventName{
+      opacity:0;
+        height: 100%;
+        width:100%;
+        margin-top:-121px;
+        z-index: 1;
+        background-color: rgba(251,207,30,0.6);
+      
+    }
+    
+    #footballDiv #eventName p{
+        text-align: center;
+       font-size: 50px;
+        padding-top: 19px;
+        color:black;
+        padding-right:30px;
+        transform: skew(31deg);
+       
+        
+    }
+    
+     #basketballDiv #eventName p{
+        text-align: center;
+       font-size: 50px;
+        padding-top: 19px;
+        color:black;
+        padding-right:30px;
+        transform: skew(31deg);
+       
+        
+    }
+    footballDiv #eventName p{
+         text-align: center;
+       font-size: 50px;
+        padding-top: 19px;
+        color:black;
+        padding-right:30px;
+        transform: skew(31deg);
+    }
+     #cricketDiv #eventName p{
+        text-align: center;
+       font-size: 50px;
+        padding-top: 19px;
+        color:black;
+        padding-right:19px;
+        transform: skew(31deg);
+       
+        
+    }
+     #badmintonDiv #eventName p{
+        text-align: center;
+       font-size: 50px;
+        padding-top: 19px;
+        color:black;
+        padding-right:30px;
+        transform: skew(31deg);
+       
+        
+    }
+     #volleyballDiv #eventName p{
+        text-align: center;
+       font-size: 50px;
+        padding-top: 19px;
+        color:black;
+        padding-right:30px;
+        transform: skew(31deg);
+       
+        
+    }
+     #chessDiv #eventName p{
+        text-align: center;
+       font-size: 50px;
+        padding-top: 19px;
+        color:black;
+        padding-right:30px;
+        transform: skew(31deg);
+       
+        
+    }
+     #tabletennisDiv #eventName p{
+        text-align: center;
+       font-size: 50px;
+        padding-top: 19px;
+        color:black;
+        padding-right:30px;
+        transform: skew(31deg);
+       
+        
+    }
+
+   
+    
+    #footballDiv #eventName:hover{
+      opacity:1;
+       
+    }
+    
+    
+    #cricketDiv #eventName:hover{
+      opacity:1;
+       
+    }
+    
+    #volleyballDiv #eventName:hover{
+      opacity:1;
+       
+    }
+    #chessDiv #eventName:hover{
+      opacity:1;
+       
+    }
+    #tabletennisDiv #eventName:hover{
+      opacity:1;
+       
+    }
+    #badmintonDiv #eventName:hover{
+      opacity:1;
+       
+    }
+    #basketballDiv #eventName:hover{
+        opacity: 1;
+    }
+    
+    
+
+     
+    
+ #basketballimg{
+        height:100%;
+        width:100%;
+        background: url("photos/eventsPic/basketball.png") center;
+        z-index: -1;
+    }
+ #cricketImg{
+        height:100%;
+        width:100%;
+        background: url("photos/eventsPic/cricket.png") center no-repeat;
+        z-index: -1;
+         background-size:100%;
+    }
+ #footballImg{
+        height:100%;
+        width:100%;
+        background: url(photos/eventsPic/football.png) center no-repeat;
+        background-size:100%;
+        z-index: -1;
+        
+        //transform: skew(31deg);
+    }
+ #badmintonImg{
+        height:100%;
+        width:100%;
+        background: url("photos/eventsPic/badminton.png") center no-repeat;
+        z-index: -1;
+         background-size:100%;
+    }
+  #volleyballimg{
+        height:100%;
+        width:100%;
+        background: url("photos/eventsPic/volleyball.png") center no-repeat;
+         background-size:100%;
+        z-index: -1;
+    }
+  #tableTennisImg{
+       height:100%;
+        width:100%;
+        background: url("photos/eventsPic/tabletennis.png") center no-repeat;
+        z-index: -1; 
+         background-size:100%;
+    }
+  #chessImg{
+        height:100%;
+        width:100%;
+        background: url("photos/eventsPic/chess.png") center no-repeat;
+         background-size:100%;
+        z-index: -1;  
+    }
+   
 }
 
 
 @media only screen and (min-width:1920px){
-   
+   fadeInLeft:nth-child(1){
+    animation-delay:0.3;
+}
+fadeInLeft:nth-child(2){
+    animation-delay:0.6;
+}
+fadeInLeft:nth-child(3){
+    animation-delay:0.9;
+}
+fadeInLeft:nth-child(4){
+    animation-delay:0.12;
+}
+fadeInLeft:nth-child(5){
+    animation-delay:0.15;
+}
+fadeInLeft:nth-child(6){
+    animation-delay:0.18;
+}
+fadeInLeft:nth-child(7){
+    animation-delay:0.21;
+}
+
     #eventsPage{
         display:grid;
         grid-template-columns: repeat(21,91px);
@@ -189,7 +472,43 @@
         width:100%;
         background: url(photos/newbgs/DesktopHDotherPages.png) center no-repeat;
         background-size:cover;
+        overflow: hidden;
 
+    }
+    
+    #registerButton{
+       display: grid;
+grid-row: 1/3;
+grid-column: 18/22;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    
+   
+    #footerLogo{
+      background-size: 77%;
+margin-top: -150px;
+grid-row: 11/13;
+grid-column: 19/22;
+background: url("vajranew.png") center no-repeat;
+    background-size: auto auto;
+background-size: auto auto;
+background-size: auto auto;
+background-size: 105%;
+margin-left: 79px;
+    }
+    
+    #pageName{
+      grid-column: 10/13;
+        grid:1/3;
+    }
+    
+    #pageName p{
+        font-size: 100px;
+        //transform: skew(-31deg);
+        color:#fbcf1e;
+        font-family: 'Abel','sans-serif' !important;
+        font-weight: 100;
     }
     
     .eventsDiv{
@@ -197,7 +516,7 @@
         height:180px;
         transform: skew(-31deg) !important;
         //background:#fbcf1e;
-        border:2.5px solid #fbcf1e;
+        border:3px solid black;
     }
     
     .topleftMenu {
@@ -330,23 +649,20 @@
        
         grid-column: 4/10;
         grid-row:3/5;
-            
+            background: #fbcf1e;
     }
     
-    #footballDiv img{
-        width:400px;
-        height:180px;
+    #footballImg{
+        height:100%;
+        width:100%;
+        background: url(photos/eventsPic/football.png) center no-repeat;
+        background-size:100%;
+        z-index: -1;
+        
+        //transform: skew(31deg);
     }
     
-    #basketballDiv img{
-        width:400px;
-        height:180px;
-        //transform: skew(-31deg);     
-    }
-    
-   
-    
-    
+
     #basketballDiv{
       grid-column:9/15;
         grid-row:3/5;
@@ -354,33 +670,182 @@
         
     }
     
-    #basketBallDiv #eventName{
+    #basketballDiv #eventName{
       opacity:0;
         height: 100%;
         width:100%;
         margin-top:-180px;
         z-index: 1;
-        background-color: rgba(251,207,30,0.4);
+        background-color: rgba(251,207,30,0.6);
       
     }
-    #eventImage{
+    
+     #footballDiv #eventName{
+      opacity:0;
+        height: 100%;
+        width:100%;
+        margin-top:-180px;
+        z-index: 1;
+        background-color: rgba(251,207,30,0.6);
+      
+    }
+    
+     #cricketDiv #eventName{
+      opacity:0;
+        height: 100%;
+        width:100%;
+        margin-top:-180px;
+        z-index: 1;
+        background-color: rgba(251,207,30,0.6);
+      
+    }
+    
+     #badmintonDiv #eventName{
+      opacity:0;
+        height: 100%;
+        width:100%;
+        margin-top:-180px;
+        z-index: 1;
+        background-color: rgba(251,207,30,0.6);
+      
+    }
+    
+     #volleyballDiv #eventName{
+      opacity:0;
+        height: 100%;
+        width:100%;
+        margin-top:-180px;
+        z-index: 1;
+        background-color: rgba(251,207,30,0.6);
+      
+    }
+    
+     #chessDiv #eventName{
+      opacity:0;
+        height: 100%;
+        width:100%;
+        margin-top:-180px;
+        z-index: 1;
+        background-color: rgba(251,207,30,0.6);
+      
+    }
+    
+     #tabletennisDiv #eventName{
+      opacity:0;
+        height: 100%;
+        width:100%;
+        margin-top:-180px;
+        z-index: 1;
+        background-color: rgba(251,207,30,0.6);
+      
+    }
+    
+    #basketBallimg{
         height:100%;
         width:100%;
-        background: url(events/BASKETBALL.png) center;
+        background: url("photos/eventsPic/basketball.png") center;
         z-index: -1;
-        animation: movePic 5s infinite alternate;
     }
   
     
-    #basketBallDiv #eventName:hover{
+    #basketballDiv #eventName:hover{
+      opacity:1;
+       
+    }
+    #footballDiv #eventName:hover{
       opacity:1;
        
     }
     
+    #cricketDiv #eventName:hover{
+      opacity:1;
+       
+    }
+    
+    #volleyballDiv #eventName:hover{
+      opacity:1;
+       
+    }
+    #chessDiv #eventName:hover{
+      opacity:1;
+       
+    }
+    #tabletennisDiv #eventName:hover{
+      opacity:1;
+       
+    }
+    #badmintonDiv #eventName:hover{
+      opacity:1;
+       
+    }
+    
+    
       
    
     
-     #basketBallDiv #eventName p{
+     #footballDiv #eventName p{
+        text-align: center;
+       font-size: 50px;
+        padding-top: 50px;
+        color:black;
+        padding-right:44px;
+        transform: skew(31deg);
+       
+        
+    }
+    
+     #basketballDiv #eventName p{
+        text-align: center;
+       font-size: 50px;
+        padding-top: 50px;
+        color:black;
+        padding-right:44px;
+        transform: skew(31deg);
+       
+        
+    }
+    
+     #cricketDiv #eventName p{
+        text-align: center;
+       font-size: 50px;
+        padding-top: 50px;
+        color:black;
+        padding-right:44px;
+        transform: skew(31deg);
+       
+        
+    }
+     #badmintonDiv #eventName p{
+        text-align: center;
+       font-size: 50px;
+        padding-top: 50px;
+        color:black;
+        padding-right:44px;
+        transform: skew(31deg);
+       
+        
+    }
+     #volleyballDiv #eventName p{
+        text-align: center;
+       font-size: 50px;
+        padding-top: 50px;
+        color:black;
+        padding-right:44px;
+        transform: skew(31deg);
+       
+        
+    }
+     #chessDiv #eventName p{
+        text-align: center;
+       font-size: 50px;
+        padding-top: 50px;
+        color:black;
+        padding-right:44px;
+        transform: skew(31deg);
+       
+        
+    }
+     #tabletennisDiv #eventName p{
         text-align: center;
        font-size: 50px;
         padding-top: 50px;
@@ -399,10 +864,26 @@
 
     }
     
+    #cricketImg{
+        height:100%;
+        width:100%;
+        background: url("photos/eventsPic/cricket.png") center no-repeat;
+        z-index: -1;
+         background-size:100%;
+    }
+    
     #badmintonDiv{
         grid-column:6/12;
         grid-row:5/7;
         margin-top:15px;
+    }
+    
+    #badmintonImg{
+        height:100%;
+        width:100%;
+        background: url("photos/eventsPic/badminton.png") center no-repeat;
+        z-index: -1;
+         background-size:100%;
     }
     
     #volleyballDiv{
@@ -414,6 +895,14 @@
 
     }
     
+    #volleyballimg{
+        height:100%;
+        width:100%;
+        background: url("photos/eventsPic/volleyball.png") center no-repeat;
+         background-size:100%;
+        z-index: -1;
+    }
+    
     #tabletennisDiv{
      grid-row:7/9;
     grid-column: 7/13;
@@ -423,12 +912,28 @@
 
     }
     
+    #tableTennisImg{
+       height:100%;
+        width:100%;
+        background: url("photos/eventsPic/tabletennis.png") center no-repeat;
+        z-index: -1; 
+         background-size:100%;
+    }
+    
     #chessDiv{
       grid-row:7/9; 
         grid-column: 12/18;
         margin-top:30px;
                margin-left:-79px;
 
+    }
+    
+    #chessImg{
+        height:100%;
+        width:100%;
+        background: url("photos/eventsPic/chess.png") center no-repeat;
+         background-size:100%;
+        z-index: -1;  
     }
     
     
@@ -466,11 +971,12 @@
     font-size: 65px;
     }
     .eventsDiv{
-        width:100px;
-        height:88px;
-        transform: skew(-31deg);
-        //background:#fbcf1e;
-        border:2px solid #fbcf1e;
+       width: 126px;
+height: 88px;
+transform: skew(-20deg);
+//background: #fbcf1e;
+border: 2px solid black;
+margin-left: -26px;
     }
     
     #footballDiv{
@@ -478,47 +984,226 @@
         grid-column: 2/3;
     }
     
+
     #basketBallDiv{
-        grid-column: 4/6;
-        grid-row:3/5;
-        margin-left: -45px;
+       grid-column: 4/6;
+grid-row: 3/5;
+margin-left: -45px;
     }
     
     
     #cricketDiv{
           grid-column: 2/4;
-    grid-row: 4/6;
-    margin-top: -7px;
+grid-row: 4/6;
+margin-top: 19px;
     }
     
     #badmintonDiv{
      grid-column: 4/6;
-    grid-row: 4/6;
-    margin-top: -6px;
-    margin-left: -45px;
+grid-row: 4/6;
+margin-top: 19px;
+margin-left: -47px;
     }
     
     #volleyballDiv{
-           grid-column: 2/4;
-    grid-row: 5/7;
-    margin-top: -14px;
+        grid-column: 2/4;
+grid-row: 5/7;
+margin-top: 38px;
     }
     
     #chessDiv{
-        grid-column: 4/6;
-    grid-row: 5/7;
-    margin-top: -13px;
-    margin-left: -45px;
+      grid-column: 4/6;
+grid-row: 5/7;
+margin-top: 38px;
+margin-left: -47px;
     }
     
     #tabletennisDiv{
-            width: 150px;
-    grid-column: 2/6;
-    grid-row: 7/9;
-    margin-top: -99px;
-
+          width: 206px;
+grid-column: 2/6;
+grid-row: 7/9;
+margin-top: -25px;
     }
     
+     #basketballDiv #eventName{
+      
+        height: 100%;
+        width:100%;
+        margin-top:-88px;
+        z-index: 1;
+        background-color: rgba(23,22,22,0.6);
+      
+    }
+    
+     #footballDiv #eventName{
+     
+        height: 100%;
+        width:100%;
+        margin-top:-88px;
+        z-index: 1;
+        background-color: rgba(23,22,22,0.6);
+      
+    }
+    
+     #cricketDiv #eventName{
+      
+        height: 100%;
+        width:100%;
+        margin-top:-88px;
+        z-index: 1;
+        background-color: rgba(23,22,22,0.6);
+      
+    }
+    
+     #badmintonDiv #eventName{
+   
+        height: 100%;
+        width:100%;
+        margin-top:-88px;
+        z-index: 1;
+        background-color: rgba(23,22,22,0.6);
+      
+    }
+    
+     #volleyballDiv #eventName{
+      
+        height: 100%;
+        width:100%;
+        margin-top:-88px;
+        z-index: 1;
+        background-color: rgba(23,22,22,0.6);
+      
+    }
+    
+     #chessDiv #eventName{
+      
+        height: 100%;
+        width:100%;
+        margin-top:-88px;
+        z-index: 1;
+        background-color: rgba(23,22,22,0.6);
+      
+    }
+    
+     #tabletennisDiv #eventName{
+      
+        height: 100%;
+        width:100%;
+        margin-top:-88px;
+        z-index: 1;
+        background-color: rgba(23,22,22,0.6);
+      
+    }
+    
+    #tabletennisDiv #eventName p{
+       text-align: center;
+    font-size: 23px;
+   color: white;
+   margin-left: 13px;
+        //transform: skew(-31deg);
+        padding-top:22px;
+    }
+     #chessDiv #eventName p{
+       text-align: center;
+    font-size: 23px;
+   color: white;
+   margin-left: 13px;
+        //transform: skew(-31deg);
+        padding-top:22px;
+    }
+     #volleyballDiv #eventName p{
+       text-align: center;
+    font-size: 23px;
+   color: white;
+   margin-left: 13px;
+        //transform: skew(-31deg);
+        padding-top:22px;
+    }
+     #badmintonDiv #eventName p{
+       text-align: center;
+    font-size: 23px;
+   color: white;
+   margin-left: 13px;
+        //transform: skew(-31deg);
+        padding-top:22px;
+    }
+     #cricketDiv #eventName p{
+       text-align: center;
+    font-size: 23px;
+   color: white;
+   margin-left: 13px;
+        //transform: skew(-31deg);
+        padding-top:22px;
+    }
+     #basketballDiv #eventName p{
+       text-align: center;
+    font-size: 23px;
+   color: white;
+   margin-left: 13px;
+        //transform: skew(-31deg);
+        padding-top:22px;
+    }
+     #footballDiv #eventName p{
+       text-align: center;
+    font-size: 23px;
+   color: white;
+   margin-left: 13px;
+        //transform: skew(-31deg);
+        padding-top:22px;
+    }
+    
+    
+    
+    #basketballimg{
+        height:100%;
+        width:100%;
+        background: url("photos/eventsPic/basketball.png") center;
+        z-index: -1;
+    }
+ #cricketImg{
+        height:100%;
+        width:100%;
+        background: url("photos/eventsPic/cricket.png") center no-repeat;
+        z-index: -1;
+        background-size:cover;
+    }
+ #footballImg{
+        height:100%;
+        width:100%;
+        background: url(photos/eventsPic/football.png) center no-repeat;
+        background-size:cover;
+        z-index: -1;
+        
+        //transform: skew(31deg);
+    }
+ #badmintonImg{
+        height:100%;
+        width:100%;
+        background: url("photos/eventsPic/badminton.png") center no-repeat;
+        z-index: -1;
+        background-size:cover;
+    }
+  #volleyballimg{
+        height:100%;
+        width:100%;
+        background: url("photos/eventsPic/volleyball.png") center no-repeat;
+        background-size:cover;
+        z-index: -1;
+    }
+  #tableTennisImg{
+       height:100%;
+        width:100%;
+        background: url("photos/eventsPic/tabletennis.png") center no-repeat;
+        z-index: -1; 
+        background-size:cover;
+    }
+  #chessImg{
+        height:100%;
+        width:100%;
+        background: url("photos/eventsPic/chess.png") center no-repeat;
+        background-size:cover;
+        z-index: -1;  
+    }
     
       .topleftMenu {
     top:34px;
@@ -664,11 +1349,12 @@
         font-size: 45px;
     }
     .eventsDiv{
-        width:80px;
+        width:99px;
         height:48px;
         transform: skew(-31deg) !important;
         //background:#fbcf1e;
         border:2px solid #fbcf1e;
+        
     }
     
     #footballDiv{
@@ -679,7 +1365,7 @@
     #basketBallDiv{
         grid-column: 4/6;
         grid-row:3/5;
-        margin-left: -65px;
+        margin-left: -78px;
     }
     
     
@@ -693,7 +1379,7 @@
         grid-column:4/6;
         grid-row:4/6;
         margin-top: -20px;
-        margin-left:-65px;
+        margin-left:-78px;
     }
     
     #volleyballDiv{
@@ -706,7 +1392,7 @@
         grid-column:4/6;
         grid-row:5/7;
         margin-top:-39px;
-        margin-left:-65px;
+        margin-left:-78px;
     }
     
     #tabletennisDiv{
@@ -718,6 +1404,132 @@
 
     }
     
+     #basketballDiv #eventName{
+      
+        height: 100%;
+        width:100%;
+        margin-top:-48px;
+        z-index: 1;
+        background-color: rgba(23,22,22,0.6);
+      
+    }
+    
+     #footballDiv #eventName{
+     
+        height: 100%;
+        width:100%;
+        margin-top:-48px;
+        z-index: 1;
+        background-color: rgba(23,22,22,0.6);
+      
+    }
+    
+     #cricketDiv #eventName{
+      
+        height: 100%;
+        width:100%;
+        margin-top:-48px;
+        z-index: 1;
+        background-color: rgba(23,22,22,0.6);
+      
+    }
+    
+     #badmintonDiv #eventName{
+   
+        height: 100%;
+        width:100%;
+        margin-top:-48px;
+        z-index: 1;
+        background-color: rgba(23,22,22,0.6);
+      
+    }
+    
+     #volleyballDiv #eventName{
+      
+        height: 100%;
+        width:100%;
+        margin-top:-48px;
+        z-index: 1;
+        background-color: rgba(23,22,22,0.6);
+      
+    }
+    
+     #chessDiv #eventName{
+      
+        height: 100%;
+        width:100%;
+        margin-top:-48px;
+        z-index: 1;
+        background-color: rgba(23,22,22,0.6);
+      
+    }
+    
+     #tabletennisDiv #eventName{
+      
+        height: 100%;
+        width:100%;
+        margin-top:-48px;
+        z-index: 1;
+        background-color: rgba(23,22,22,0.6);
+      
+    }
+    
+    #tabletennisDiv #eventName p{
+       text-align: center;
+    font-size: 14px;
+   color: white;
+   margin-left: 13px;
+        //transform: skew(-31deg);
+        padding-top:22px;
+    }
+     #chessDiv #eventName p{
+       text-align: center;
+    font-size: 14px;
+   color: white;
+   margin-left: 13px;
+        //transform: skew(-31deg);
+        padding-top:22px;
+    }
+     #volleyballDiv #eventName p{
+       text-align: center;
+    font-size: 14px;
+   color: white;
+   margin-left: 13px;
+        //transform: skew(-31deg);
+        padding-top:22px;
+    }
+     #badmintonDiv #eventName p{
+       text-align: center;
+    font-size: 14px;
+   color: white;
+   margin-left: 13px;
+        //transform: skew(-31deg);
+        padding-top:22px;
+    }
+     #cricketDiv #eventName p{
+       text-align: center;
+    font-size: 14px;
+   color: white;
+   margin-left: 13px;
+        //transform: skew(-31deg);
+        padding-top:22px;
+    }
+     #basketballDiv #eventName p{
+       text-align: center;
+    font-size: 14px;
+   color: white;
+   margin-left: 13px;
+        //transform: skew(-31deg);
+        padding-top:22px;
+    }
+     #footballDiv #eventName p{
+       text-align: center;
+    font-size: 14px;
+   color: white;
+   margin-left: 13px;
+        //transform: skew(-31deg);
+        padding-top:22px;
+    }
     
       .topleftMenu {
     top:34px;

@@ -5,6 +5,7 @@ $(document).ready(function() {
       var active3 = false;
       var active4 = false;
       var active5 = false;
+    let c= 0;
     
         $('.topleftMenu').on('click', function() {
         
@@ -28,5 +29,18 @@ $(document).ready(function() {
         $('.flip-container1').delay(2800).queue(function(){
             $(this).addClass('flipped')
         });
+      $('.mask2').on('click', function() {
+        c++;
+        if((c%2)!==0){
+          $('#contactArea').css('filter', 'blur(4px)');
+            $('#contactAreaMob').css('filter', 'blur(4px)');
+          }
+        if(c%2===0){
+          
+            $('#contactArea').css('filter', '');
+            $('#contactAreaMob').css('filter', '');
+        
+        }
+      });
     });
 

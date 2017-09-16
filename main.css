@@ -26,8 +26,13 @@ a{
     }
 
  .fadeInUp:nth-child(3){
-        animation-delay: 3.5s
+        animation-delay: 2.8s
     }
+
+.bounceInRight{
+    animation-delay: 3s;
+}
+
 
 
 @media only screen and (min-width : 480px){
@@ -180,6 +185,30 @@ overflow: hidden;
    margin-top: 100px;
 }
     
+    #registerButton{
+        display:grid;
+        grid-row:1/2;
+        grid-column: 4/5;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    
+    #register{
+        grid-row:2/4;
+        grid-column: 2/4;
+       transform:skew(-31deg);
+        background: #fcbf1e;
+        border: 3px solid black;
+    }
+    
+    #register p{
+               transform:skew(31deg);
+           font-size:40px
+    }
+    
+    #register:hover{
+        background:yellow;
+    }
   
     
    
