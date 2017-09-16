@@ -42,5 +42,11 @@ $(document).ready(function() {
         
         }
       });
+    
+    console.log(window.innerHeight);
+    
+    if(window.innerHeight > window.innerWidth){
+        alert("GHUMAAA!!!!");
+    }
     });
 
