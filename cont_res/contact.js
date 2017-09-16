@@ -32,13 +32,13 @@ $(document).ready(function() {
       $('.mask2').on('click', function() {
         c++;
         if((c%2)!==0){
-          $('#contactArea').css('filter', 'blur(4px)');
-            $('#contactAreaMob').css('filter', 'blur(4px)');
+          $('#contactArea').css('filter', 'blur(4px)').css('transform','scale(1.01)');
+            $('#contactAreaMob').css('filter', 'blur(4px)').css('transform','scale(1.01)');
           }
         if(c%2===0){
           
-            $('#contactArea').css('filter', '');
-            $('#contactAreaMob').css('filter', '');
+            $('#contactArea').css('filter', '').css('transform','scale(1)');
+            $('#contactAreaMob').css('filter', '').css('transform','scale(1)');
         
         }
       });

@@ -29,13 +29,13 @@ $(document).ready(function() {
     $('.mask2').on('click', function() {
         c++;
         if((c%2)!==0){
-          $('#aboutArea').css('filter', 'blur(4px)');
-            $('#aboutAreaMob').css('filter', 'blur(4px)');
+          $('#aboutArea').css('filter', 'blur(4px)').css('transform','scale(1.01)');
+            $('#aboutAreaMob').css('filter', 'blur(4px)').css('transform','scale(1.01)');
           }
         if(c%2===0){
           
-            $('#aboutArea').css('filter', '');
-            $('#aboutAreaMob').css('filter', '');
+            $('#aboutArea').css('filter', '').css('transform','scale(1)');
+            $('#aboutAreaMob').css('filter', '').css('transform','scale(1)');
         
         }
       });
