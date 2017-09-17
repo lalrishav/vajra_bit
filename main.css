@@ -612,31 +612,35 @@ font-size: 17px;
     
     #logo{
     grid-row: 1/2;
-    grid-column: 3/4;
-    background:url(White_logo.png) center no-repeat;
-    background-size: 113%;
-    margin-bottom: -100px;
+grid-column: 3/4;
+background: url(White_logo.png) center no-repeat;
+    background-size: auto auto;
+background-size: auto auto;
+background-size: 23%;
+margin-bottom: -100px;
+margin-right: -77px;
 
 }
     #bitlogo{
    grid-row: 1/2;
-        grid-column: 2/3;
-   background: url("bitlogo.png") left no-repeat;
-   background-size: 100%;
-         margin-bottom: -100px;
-   //margin-top: -90px;
-        margin-left:3px;
+grid-column: 2/3;
+background: url("bitlogo.png") center no-repeat;
+    background-size: auto auto;
+background-size: auto auto;
+background-size: 77%;
+margin-right: -153px;
+margin-left: 63px;
     }
     
         #registerButton{
-        display: grid;
+     display: grid;
 grid-row: 1/2;
 grid-column: 3/4;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr 1fr;
 height: 68px;
-      margin-left: 62px;
-            width:230%;
+margin-left: 191px;
+width: 230%;
             
             
     }
@@ -656,8 +660,10 @@ font-size: 17px;
     
     #vajraTitle{
         background: url(vajranew.png)center no-repeat;
-        background-size: 110%;
-       margin-bottom: -56px;
+    background-size: auto auto;
+background-size: 53%;
+margin-bottom: -56px;
+margin-top: 6px;
     }
     
     #socialMedia{
