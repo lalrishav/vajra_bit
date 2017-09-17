@@ -496,7 +496,7 @@ margin-top: 92px;
   #volleyballimg{
         height:100%;
         width:100%;
-        background: url("photos/eventsPic/volleyball.png") center no-repeat;
+        background: url("photos/updatedPics/volleyball.png") center no-repeat;
          background-size:100%;
         z-index: -1;
     }
@@ -732,7 +732,7 @@ margin-left: 79px;
     #footballImg{
         height:100%;
         width:100%;
-        background: url(photos/eventsPic/football.png) center no-repeat;
+        background: url(photos/updatedPics/football.png) center no-repeat;
         background-size:100%;
         z-index: -1;
         

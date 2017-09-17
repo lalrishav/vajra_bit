@@ -171,9 +171,9 @@ background-size: 19%;
 #vajraTitle{
   grid-row: 2/4;
 grid-column: 2/5;
-margin-top: -119px;
+margin-top: -95px;
 background: url("vajranew.png") center no-repeat;
-background-size: 40%;
+background-size: 32%;
 }
 
 
