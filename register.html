@@ -1,0 +1,132 @@
+<html>
+    <head>
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="mobile-web-app-capable" content="yes">
+            <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+                <script src="browserDetect.js"></script>
+
+        <link rel="stylesheet" href = "animate.min.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="register.css">
+         
+        
+    </head>
+    <body>
+          <div class="loader">
+            <div class="sk-cube-grid">
+                    <div class="sk-cube sk-cube1"></div>
+                    <div class="sk-cube sk-cube2"></div>
+                    <div class="sk-cube sk-cube3"></div>
+                    <div class="sk-cube sk-cube4"></div>
+                    <div class="sk-cube sk-cube5"></div>
+                    <div class="sk-cube sk-cube6"></div>
+                    <div class="sk-cube sk-cube7"></div>
+                    <div class="sk-cube sk-cube8"></div>
+                    <div class="sk-cube sk-cube9"></div>
+                  </div>
+                  </div>
+           <div class="topleftMenu">
+                    <a href="contact.html"><div class="menu1"><i class="fa fa-phone fa-2x"></i></div></a>
+                    
+                    <a href="about.html"><div class="menu2"><i class="fa fa-users fa-2x"></i></div></a>
+                    
+                    <a href="team.html"><div class="menu3"><i class="fa fa-flash fa-2x"></i></div></a>
+                    
+                    <a href="events.html"> <div class="menu4"><i class="fa fa-futbol-o fa-2x"></i></div>
+                    </a>
+                   
+                    <a href="index.html"><div class="menu5"><i class="fa fa-home fa-2x"></i></div></a>
+                    <div class="mask2"><i class="fa fa-bars fa-3x"></i></div>
+            </div>
+         
+         <div id="registerArea">
+             
+              <center><div id="pageTitle"><h1>Register</h1></div></center>
+         
+          <center>
+                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScw9bFy6DGJwuMjotftga7Fa67yQFkbEK29QDQQGS4mp53cLw/viewform?embedded=true" width=80%
+        height=500px frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+              
+          </center>
+             
+             
+         </div>
+         
+        
+   
+           
+           
+            
+       
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                    <script>
+    $(document).ready(function() {
+    
+      var active1 = false;
+      var active2 = false;
+      var active3 = false;
+      var active4 = false;
+      var active5 = false;
+      let c = 0;
+         
+        $('.topLeftMenu').on('click', function() {
+        
+        if (!active1) $(this).find('.menu1').css({'background-color': '#fbcfie', 'transform': 'translate(0px,130px)'});
+        else $(this).find('.menu1').css({'background-color': '#fbcf1e', 'transform': 'none'}); 
+         if (!active2) $(this).find('.menu2').css({'background-color': '#fbcf1e', 'transform': 'translate(65px,110px)'});
+        else $(this).find('.menu2').css({'background-color': '#fbcf1e', 'transform': 'none'});
+          if (!active3) $(this).find('.menu3').css({'background-color': '#fbcf1e', 'transform': 'translate(115px,65px)'});
+        else $(this).find('.menu3').css({'background-color': '#fbcf1e', 'transform': 'none'});
+          if (!active4) $(this).find('.menu4').css({'background-color': '#fbcf1e', 'transform': 'translate(130px,0px)'});
+        else $(this).find('.menu4').css({'background-color': '#fbcf1e', 'transform': 'none'});
+        if (!active5) $(this).find('.menu5').css({'background-color': '#fbcf1e', 'transform': 'translate(49px,45px)'});
+        else $(this).find('.menu5').css({'background-color': '#fbcf1e', 'transform': 'none'});
+        active1 = !active1;
+        active2 = !active2;
+        active3 = !active3;
+        active4 = !active4;
+        active5 = !active5;
+          
+        });
+         $('.mask2').on('click', function() {
+        c++;
+        if((c%2)!==0){
+          $('#registerArea').css('filter', 'blur(2px)').css('transform','scale(1.01)');
+          }
+        if(c%2===0){
+          
+            $('#registerArea').css('filter', '').css('transform','scale(1)');
+            
+        
+        }
+      });
+    });
+    </script>
+                  <script>
+                        $(document).ready(function() {
+                        //Preloader
+                        $(window).on('load', function() {
+                        preloaderFadeOutTime = 500;
+                        function hidePreloader() {
+                     let preloader = $('.loader');
+                    preloader.fadeOut(preloaderFadeOutTime);
+                        }
+                        hidePreloader();
+                        });
+                        });
+                        </script>
+                        <script>
+    window.addEventListener("orientationchange", function() {
+  if(window.orientation === -90 || window.orientation === 90)
+  alert("Please Rotate your device");
+  
+  }, false);
+
+    //orientation
+    </script>
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+                  
+    </body>
+</html>
