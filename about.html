@@ -7,6 +7,7 @@
         <link rel="stylesheet" href = "animate.min.css">
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="abt_res/about.css">
+        
     </head>
     <body>
           <div class="loader">
@@ -129,6 +130,15 @@
                         });
                         });
                         </script>
+                        <script>
+    window.addEventListener("orientationchange", function() {
+  if(window.orientation === -90 || window.orientation === 90)
+  alert("Please Rotate your device");
+  
+  }, false);
+
+    //orientation
+    </script>
                   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
                   <script src="abt_res/main.js"></script>
     </body>

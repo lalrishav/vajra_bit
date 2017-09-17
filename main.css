@@ -117,13 +117,20 @@ a{
   grid-template-rows : 1fr 1fr 1fr 1fr;
   height :100%;
   width:100%;
-  background:url("photos/newbgs/backround1366.png") center no-repeat;
+/*  background:url("photos/newbgs/backround1366.png") center no-repeat;*/
+    background:url("photos/newbgs/backgroundwithLogo1366.png") center no-repeat;
     background-size: cover;
     overflow: hidden;
    
     
 }
-    
+    #bitlogo{
+   grid-row: 1/3;
+   background: url("bitlogo.png") left no-repeat;
+   background-size: 20%;
+   margin-top: -50px;
+        display:none;
+    }
       
     #registerButton{
         display:grid;
@@ -271,7 +278,8 @@ background-size: 40%;
   grid-template-rows : 1fr 1fr 1fr 1fr;
   height :100%;
   width:100%;
-  background:url("photos/newbgs/backround1920.png") center;
+/*  background:url("photos/newbgs/backround1920.png") center;*/
+    background: url("photos/newbgs/backgroundwithLogo1920.png") center no-repeat;
 overflow: hidden;
 }
 
@@ -290,6 +298,13 @@ overflow: hidden;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         height:126px;
+    }
+    
+    #bitlogo{
+   grid-row: 1/3;
+   background: url("bitlogo.png") left no-repeat;
+   background-size: 26%;
+   margin-top: -90px;
     }
     
     #register{
@@ -314,7 +329,7 @@ overflow: hidden;
 #vajraTitle{
   grid-row:1/4;
     grid-column: 2/4;
-    margin-top:200px;
+    margin-top:216px;
     background: url("vajranew.png") center no-repeat;
     background-size:40%;
   
@@ -326,15 +341,7 @@ overflow: hidden;
 
 
 
- #bitLogo{
-       
-     grid-row:1/2;
-     grid-column: 1/2;
-    
-     background: url(photos/players/logosForGames/Bit_logo-1.png) left no-repeat;
-    background-size: 10%; 
-    
-    }
+
 
 
 
@@ -467,12 +474,21 @@ font-size: 17px;
      
      #logo{
     grid-row: 1/2;
-    grid-column: 2/4;
+    grid-column: 3/4;
     background:url(White_logo.png) center no-repeat;
-    background-size: 70%;
+    background-size: 113%;
     margin-bottom: -100px;
 
 }
+    #bitlogo{
+   grid-row: 1/2;
+        grid-column: 2/3;
+   background: url("bitlogo.png") left no-repeat;
+   background-size: 100%;
+         margin-bottom: -100px;
+   //margin-top: -90px;
+        margin-left:3px;
+    }
      
      #vajraTitle{
   grid-row:2/3;
@@ -591,6 +607,25 @@ font-size: 17px;
         background-size:cover;
 }
     
+    
+    #logo{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    background:url(White_logo.png) center no-repeat;
+    background-size: 113%;
+    margin-bottom: -100px;
+
+}
+    #bitlogo{
+   grid-row: 1/2;
+        grid-column: 2/3;
+   background: url("bitlogo.png") left no-repeat;
+   background-size: 100%;
+         margin-bottom: -100px;
+   //margin-top: -90px;
+        margin-left:3px;
+    }
+    
         #registerButton{
         display: grid;
 grid-row: 1/2;
@@ -598,7 +633,7 @@ grid-column: 3/4;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr 1fr;
 height: 68px;
-      margin-left: 33px;
+      margin-left: 46px;
             width:230%;
             
             
@@ -620,7 +655,7 @@ font-size: 17px;
     #vajraTitle{
         background: url(vajranew.png)center no-repeat;
         background-size: 110%;
-       margin-bottom: -35px;
+       margin-bottom: -56px;
     }
     
     #socialMedia{
