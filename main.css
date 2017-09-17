@@ -85,6 +85,7 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
     vertical-align: baseline;
     background: transparent;
 font-family: 'Oswald', sans-serif;
+    
 }
 
 a{
@@ -292,6 +293,7 @@ overflow: hidden;
         grid-column: 4/5;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
+        height:126px;
     }
     
     #register{
@@ -450,7 +452,8 @@ grid-column: 4/4;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr 1fr;
 height: 77px;
-        margin-left:19px;
+        
+        margin-left:-99px;
     }
     
     #register{
@@ -599,6 +602,7 @@ grid-column: 4/4;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr 1fr;
 height: 68px;
+            
             margin: 0;
     }
     

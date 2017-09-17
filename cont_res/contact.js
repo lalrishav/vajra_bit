@@ -45,8 +45,15 @@ $(document).ready(function() {
     
     console.log(window.innerHeight);
     
-    if(window.innerHeight > window.innerWidth){
-        alert("GHUMAAA!!!!");
+//    if(window.innerWidth > window.innerHeight){
+//        alert("GHUMAAA!!!!");
+//    }
+    
+  if(navigator.userAgent.match(/Mobile|Windows Phone|Lumia|Android|webOS|iPhone|iPod|Blackberry|PlayBook|BB10|Opera Mini|\bCrMo\/|Opera Mobi/i) )
+{
+    if(window.innerWidth > window.innerHeight){
+       alert("Please switch to potrait")
     }
+}
     });
 
