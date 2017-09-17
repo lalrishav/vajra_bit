@@ -465,7 +465,7 @@ margin-top: 92px;
  #basketballimg{
         height:100%;
         width:100%;
-        background: url("photos/eventsPic/basketball.png") center;
+        background: url("photos/updatedPics/basketball.png") center;
         z-index: -1;
               background-size:100%;
 
@@ -473,14 +473,14 @@ margin-top: 92px;
  #cricketImg{
         height:100%;
         width:100%;
-        background: url("photos/eventsPic/cricket.png") center no-repeat;
+        background: url("photos/updatedPics/cricket.png") center no-repeat;
         z-index: -1;
          background-size:100%;
     }
  #footballImg{
         height:100%;
         width:100%;
-        background: url(photos/eventsPic/football.png) center no-repeat;
+        background: url(photos/updatedPics/football.png) center no-repeat;
         background-size:100%;
         z-index: -1;
         
@@ -489,7 +489,7 @@ margin-top: 92px;
  #badmintonImg{
         height:100%;
         width:100%;
-        background: url("photos/eventsPic/badminton.png") center no-repeat;
+        background: url("photos/updatedPics/badminton.png") center no-repeat;
         z-index: -1;
          background-size:100%;
     }
@@ -503,14 +503,14 @@ margin-top: 92px;
   #tableTennisImg{
        height:100%;
         width:100%;
-        background: url("photos/eventsPic/tabletennis.png") center no-repeat;
+        background: url("photos/updatedPics/tabletennis.png") center no-repeat;
         z-index: -1; 
          background-size:100%;
     }
   #chessImg{
         height:100%;
         width:100%;
-        background: url("photos/eventsPic/chess.png") center no-repeat;
+        background: url("photos/updatedPics/chess.png") center no-repeat;
          background-size:100%;
         z-index: -1;  
     }
@@ -820,7 +820,8 @@ margin-left: 79px;
     #basketBallimg{
         height:100%;
         width:100%;
-        background: url("photos/eventsPic/basketball.png") center;
+        background: url("photos/updatedPics/basketball.png") center no-repeat;
+        background-size: 100%;
         z-index: -1;
     }
   
@@ -944,7 +945,7 @@ margin-left: 79px;
     #cricketImg{
         height:100%;
         width:100%;
-        background: url("photos/eventsPic/cricket.png") center no-repeat;
+        background: url("photos/updatedPics/cricket.png") center no-repeat;
         z-index: -1;
          background-size:100%;
     }
@@ -958,7 +959,7 @@ margin-left: 79px;
     #badmintonImg{
         height:100%;
         width:100%;
-        background: url("photos/eventsPic/badminton.png") center no-repeat;
+        background: url("photos/updatedPics/badminton.png") center no-repeat;
         z-index: -1;
          background-size:100%;
     }
@@ -975,7 +976,7 @@ margin-left: 79px;
     #volleyballimg{
         height:100%;
         width:100%;
-        background: url("photos/eventsPic/volleyball.png") center no-repeat;
+        background: url("photos/updatedPics/volleyball.png") center no-repeat;
          background-size:100%;
         z-index: -1;
     }
@@ -992,7 +993,7 @@ margin-left: 79px;
     #tableTennisImg{
        height:100%;
         width:100%;
-        background: url("photos/eventsPic/tabletennis.png") center no-repeat;
+        background: url("photos/updatedPics/tabletennis.png") center no-repeat;
         z-index: -1; 
          background-size:100%;
     }
@@ -1008,7 +1009,7 @@ margin-left: 79px;
     #chessImg{
         height:100%;
         width:100%;
-        background: url("photos/eventsPic/chess.png") center no-repeat;
+        background: url("photos/updatedPics/chess.png") center no-repeat;
          background-size:100%;
         z-index: -1;  
     }
@@ -1234,20 +1235,20 @@ margin-top: -25px;
     #basketballimg{
         height:100%;
         width:100%;
-        background: url("photos/eventsPic/basketball.png") center;
+        background: url("photos/updatedPics/basketball_m.png") center;
         z-index: -1;
     }
  #cricketImg{
         height:100%;
         width:100%;
-        background: url("photos/eventsPic/cricket.png") center no-repeat;
+        background: url("photos/updatedPics/cricket_m.png") center no-repeat;
         z-index: -1;
         background-size:cover;
     }
  #footballImg{
         height:100%;
         width:100%;
-        background: url(photos/eventsPic/football.png) center no-repeat;
+        background: url(photos/updatedPics/football_m.png) center no-repeat;
         background-size:cover;
         z-index: -1;
         
@@ -1256,28 +1257,28 @@ margin-top: -25px;
  #badmintonImg{
         height:100%;
         width:100%;
-        background: url("photos/eventsPic/badminton.png") center no-repeat;
+        background: url("photos/updatedPics/badminton_m.png") center no-repeat;
         z-index: -1;
         background-size:cover;
     }
   #volleyballimg{
         height:100%;
         width:100%;
-        background: url("photos/eventsPic/volleyball.png") center no-repeat;
+        background: url("photos/updatedPics/volleyball_m.png") center no-repeat;
         background-size:cover;
         z-index: -1;
     }
   #tableTennisImg{
        height:100%;
         width:100%;
-        background: url("photos/eventsPic/tabletennis.png") center no-repeat;
+        background: url("photos/updatedPics/tabletennis_m.png") center no-repeat;
         z-index: -1; 
         background-size:cover;
     }
   #chessImg{
         height:100%;
         width:100%;
-        background: url("photos/eventsPic/chess.png") center no-repeat;
+        background: url("photos/updatedPics/chess_m.png") center no-repeat;
         background-size:cover;
         z-index: -1;  
     }

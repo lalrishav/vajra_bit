@@ -685,7 +685,7 @@ text-align: center;
         width: 100%;
         grid-template-columns: repeat(8,60px);
         grid-template-rows:repeat(17,60px);
-        background:url("mobileNoText320.png") no-repeat;
+        background:url("mobileNoText360.png") no-repeat;
         background-size:cover;
          overflow: hidden;
     }
