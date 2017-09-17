@@ -458,7 +458,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr 1fr;
 height: 77px;
         
-        margin-left:-99px;
+        margin-left:-36px;
     }
     
     #register{
@@ -685,7 +685,7 @@ margin-top: 6px;
      #instagram{
           grid-row:5/6;
          grid-column: 2/3;
-        margin-left:-82px;
+        margin-left:-113px;
 
      }
        
