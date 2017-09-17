@@ -416,6 +416,28 @@ overflow: hidden;
     background-size:cover;
      overflow: hidden;
 }
+    #registerButton{
+        display: grid;
+grid-row: 1/2;
+grid-column: 4/4;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+height: 77px;
+        margin-left:19px;
+    }
+    
+    #register{
+        grid-row:2/4;
+        grid-column: 2/4;
+       transform:skew(-31deg);
+        background: #fcbf1e;
+        border: 3px solid black;
+    }
+    
+    #register p{
+              transform: skew(31deg);
+font-size: 17px;
+    }
      
      #logo{
     grid-row: 1/2;
@@ -542,6 +564,30 @@ overflow: hidden;
   background:url("photos/newbgs/mobilebackground3.png") center no-repeat;
         background-size:cover;
 }
+    
+        #registerButton{
+        display: grid;
+grid-row: 1/2;
+grid-column: 4/4;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+height: 68px;
+            margin: 0;
+    }
+    
+    #register{
+        grid-row:2/4;
+        grid-column: 2/4;
+       transform:skew(-31deg);
+        background: #fcbf1e;
+        border: 3px solid black;
+    }
+    
+    #register p{
+              transform: skew(31deg);
+font-size: 17px;
+    }
+    
     #vajraTitle{
         background: url(vajranew.png)center no-repeat;
         background-size: 110%;
