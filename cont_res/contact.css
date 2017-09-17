@@ -104,7 +104,7 @@ font-family: 'Oswald', sans-serif;
 }
 
 
-@media only screen and (min-width:480px){
+@media only screen and (min-width:768px){
     #contactArea{
     height: 100%;
      width:100%; background:url("../photos/newbgs/DesktopHDotherPages1366.png");
@@ -642,7 +642,7 @@ grid-template-rows: 1fr 1fr 1fr 1fr;
   
 }
 
-@media only screen and ( max-width:480px ) and (orientation : portrait){
+@media only screen and ( max-width:768px ) and (orientation : portrait){
     #contactArea{
     display: none;  
     }
@@ -662,8 +662,9 @@ grid-template-rows: 1fr 1fr 1fr 1fr;
     
     #pageName{
        color: #fbcf1e;
-    margin-top: 30px;
-    font-size: 65px;
+    font-size: 43px;
+margin-left: -20px;
+        margin-top: 30px;
     }
     
     #contactAreaMob{
@@ -914,7 +915,7 @@ margin-right: -1px;
 }
 */
 
-@media only screen and (max-width:320px){
+@media only screen and (max-width:360px){
      #contactArea{
     display: none;  
     }
@@ -1056,8 +1057,8 @@ margin-right: 6px;
     left:34px;
     position:fixed;
    display:block;
-    width:60px;
-    height:60px;
+    width:45px;
+    height:45px;
     background-color:transparent;
     border-radius:50%;
     z-index:20;
@@ -1066,8 +1067,8 @@ margin-right: 6px;
   box-shadow: 0px 0px 5px 0px rgba(252,223,103,0.75);
   }
   .menu1 {
-    width:60px;
-    height:60px;
+    width:45px;
+    height:45px;
     background-color:#fbcf1e;
     border-radius:50%;
     position:absolute;
@@ -1081,8 +1082,8 @@ margin-right: 6px;
       
   }
   .menu2 {
-    width:60px;
-    height:60px;
+    width:45px;
+    height:45px;
     background-color:#fbcf1e;
     border-radius:50%;
     position:absolute;
@@ -1095,8 +1096,8 @@ margin-right: 6px;
     transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .4s;
   }
   .menu3 {
-    width:60px;
-    height:60px;
+    width:45px;
+    height:45px;
     background-color:#fbcf1e;
     border-radius:50%;
     position:absolute;
@@ -1109,8 +1110,8 @@ margin-right: 6px;
     transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .6s;  
   }
     .menu4 {
-    width:60px;
-    height:60px;
+    width:45px;
+    height:45px;
     background-color:#fbcf1e;
     border-radius:50%;
     position:absolute;
@@ -1124,8 +1125,8 @@ margin-right: 6px;
   }
 
   .menu5 {
-    width:60px;
-    height:60px;
+    width:45px;
+    height:45px;
     background-color:#fbcf1e;
     border-radius:50%;
     position:absolute;
@@ -1140,8 +1141,8 @@ margin-right: 6px;
   .mask2 {
     top:34px;
     left:34px;
-    width:60px;
-    height:60px;
+    width:45px;
+    height:45px;
     background:#fbcf1e;
     border-radius:50%;
     position:absolute;
@@ -1154,11 +1155,11 @@ margin-right: 6px;
   }
    .topleftMenu .fa-3x {
         font: normal normal normal 12px/2 FontAwesome;
-        font-size: 2em !important;
+        font-size: 23px !important;
     }
     .topleftMenu .fa-2x {
         font: normal normal normal 12px/2 FontAwesome;
-        font-size: 2em !important;
+        font-size: 23px !important;
     }
     
 }

@@ -110,7 +110,7 @@ a{
 
 
 
-@media only screen and (min-width : 480px){
+@media only screen and (min-width : 768px){
 #landingPage{
   display : grid;
   grid-template-columns : 1fr 1fr 1fr 1fr 1fr;
@@ -434,7 +434,7 @@ overflow: hidden;
 
 
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 768px) {
  #landingPage{
    display : grid;
   grid-template-columns : 1fr 1fr 1fr 1fr;
@@ -583,7 +583,7 @@ font-size: 17px;
 }
 
 
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 360px) {
    
     #landingPage{
    display : grid;
@@ -602,7 +602,7 @@ grid-column: 4/4;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr 1fr;
 height: 68px;
-            
+            margin-left: 5px;
             margin: 0;
     }
     
@@ -644,7 +644,7 @@ font-size: 17px;
      #instagram{
           grid-row:5/6;
          grid-column: 2/3;
-        margin-left:-55px;
+        margin-left:-82px;
 
      }
        
