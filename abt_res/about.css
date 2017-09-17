@@ -73,6 +73,11 @@
             transform: scale3D(0, 0, 1);
   } 
 }
+
+.fadeInRight{
+    animation-delay: 2s;
+}
+
 @media only screen and (min-width:768px){
   #aboutAreaMob{
         display: none;
@@ -234,6 +239,7 @@
     backface-visibility: hidden;
     transform-style: preserve3d;
     transition: all 0.4s;
+      margin: -23px;
   }
     
     #initialDiv{
@@ -458,6 +464,7 @@
     backface-visibility: hidden;
     transform-style: preserve3d;
     transition: all 0.4s;
+      margin-top:-23px;
   }
   
   .front {
@@ -701,10 +708,10 @@ transform: skew(-31deg) !important;
     }
     
     .mobContent{
-        margin-left: 2px;
+        margin-left: 24px;
 font-size: 11px;
 text-align: center;
-margin-top: 21px;
+margin-top: 45px;
       
     }
     

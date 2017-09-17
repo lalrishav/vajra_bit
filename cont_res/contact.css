@@ -550,7 +550,7 @@ grid-template-rows: 1fr 1fr 1fr 1fr;
     backface-visibility: hidden;
     transform-style: preserve3d;
     transition: all 0.4s;
-
+    margin-left:-23px;
   }
   
   .front {

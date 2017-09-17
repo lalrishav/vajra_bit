@@ -83,6 +83,7 @@
         width:100%;
         background: url(photos/newbgs/DesktopHDotherPages1366.png) center no-repeat;
         background-size:cover;
+        overflow: hidden;
     }
     #pageName{
       grid-column: 7/7;
@@ -466,6 +467,8 @@ margin-top: 92px;
         width:100%;
         background: url("photos/eventsPic/basketball.png") center;
         z-index: -1;
+              background-size:100%;
+
     }
  #cricketImg{
         height:100%;
@@ -1428,6 +1431,7 @@ margin-top: -25px;
         transform: skew(-31deg) !important;
         //background:#fbcf1e;
         border:2px solid black;
+        margin-left:-36px;
         
     }
     
@@ -1439,41 +1443,43 @@ margin-top: -25px;
     #basketBallDiv{
         grid-column: 4/6;
         grid-row:3/5;
-        margin-left: -78px;
+        margin-left: -86px;
+        width:151px;
     }
     
     
     #cricketDiv{
         grid-column:2/4;
         grid-row:4/6;
-        margin-top: -20px;
+        margin-top: -2px;
     }
     
     #badmintonDiv{
         grid-column:4/6;
         grid-row:4/6;
-        margin-top: -20px;
-        margin-left:-78px;
+        margin-top: -1px;
+        margin-left:-86px;
+        width:146px;
     }
     
     #volleyballDiv{
         grid-column:2/4;
         grid-row:5/7;
-        margin-top:-39px;
+        margin-top:-1px;
     }
     
     #chessDiv{
         grid-column:4/6;
         grid-row:5/7;
-        margin-top:-39px;
-        margin-left:-78px;
+        margin-top:-1px;
+        margin-left:-86px;
     }
     
     #tabletennisDiv{
         width:150px;
         grid-column: 2/6;
         grid-row:7/9;
-        margin-top:-137px;
+        margin-top:-76px;
     
 
     }
