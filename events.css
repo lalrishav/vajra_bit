@@ -90,6 +90,13 @@
       
     }
     
+      #footballContent{
+        display:none;
+        height:100%;
+        width:100%;
+        background:red;
+    }
+    
      #footerLogo{
         grid-row: 7/10;
 grid-column: 9/21;
@@ -1014,6 +1021,13 @@ margin-left: 79px;
         z-index: -1;  
     }
     
+      #footballContent{
+        display:none;
+        height:100%;
+        width:100%;
+        background:red;
+    }
+    
     
 }
 
@@ -1061,7 +1075,9 @@ margin-left: -26px;
         grid-row:3/5;
         grid-column: 2/3;
     }
-    
+     #footballContent{
+        display:none;
+    }
 
     #basketBallDiv{
        grid-column: 4/6;
@@ -1719,6 +1735,13 @@ padding-top: 21px;
         font: normal normal normal 12px/2 FontAwesome;
         font-size: 23px !important;
     }  
+    
+    #footballContent{
+        display:none;
+        height:100%;
+        width:100%;
+        background:red;
+    }
     
 }
 
