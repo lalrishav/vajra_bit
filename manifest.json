@@ -9,8 +9,8 @@
     "background_color":"#171616",
   "description": "Annual Sports Fest of BIT Mesra",
   "icons": [{
-    "src": "bitlogoWebp.webp",
-    "sizes": "48x48",
+    "src": "backuppngs/bitlogo2.png",
+    "sizes": "598x597",
     "type": "image/png"
   }]
 }
