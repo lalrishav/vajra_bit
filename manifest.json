@@ -1,0 +1,16 @@
+{
+  "name": "Vajra 17",
+  "orientation": "portrait-primary",
+    "prefer_related_applications": true,
+  "short_name": "Vajra 17",
+  "start_url": "http://www.vajra.surge.sh",
+  "theme_color": "#fcbf1e",
+  "display": "standalone",
+    "background_color":"#171616",
+  "description": "Annual Sports Fest of BIT Mesra",
+  "icons": [{
+    "src": "bitlogoWebp.webp",
+    "sizes": "48x48",
+    "type": "image/png"
+  }]
+}
