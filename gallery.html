@@ -1,0 +1,135 @@
+<html>
+        
+        <head>
+          <meta property=”og:title” content=”VAJRA: The annual sports fest of BIT Mesra” />
+          <meta property=”og:url” content=”http://www.vajrabit.in/about” />
+          <meta property=”og:type” content=”website” />
+          <meta property=”og:description” content=”The annual sports fest of BIT Mesra...” />
+          <meta property=”og:image” content=”http://www.vajrabit.in/logo.png” />
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta name="mobile-web-app-capable" content="yes">
+          <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+          <link rel="stylesheet" href="animate.min.css">
+          <link rel="stylesheet" href="gallery_res/gallery.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        </head>
+        
+        <body>
+          <div class="loader">
+            <div class="sk-cube-grid">
+              <div class="sk-cube sk-cube1"></div>
+              <div class="sk-cube sk-cube2"></div>
+              <div class="sk-cube sk-cube3"></div>
+              <div class="sk-cube sk-cube4"></div>
+              <div class="sk-cube sk-cube5"></div>
+              <div class="sk-cube sk-cube6"></div>
+              <div class="sk-cube sk-cube7"></div>
+              <div class="sk-cube sk-cube8"></div>
+              <div class="sk-cube sk-cube9"></div>
+            </div>
+          </div>
+          <div class="topLeftMenu">
+            <a href="contact.html">
+              <div class="menu1"><i class="fa fa-phone fa-2x"></i></div>
+            </a>
+        
+            <a href="about.html">
+              <div class="menu2"><i class="fa fa-users fa-2x"></i></div>
+            </a>
+        
+            <div class="menu3"><i class="fa fa-flash fa-2x"></i></div>
+        
+            <a href="events.html">
+              <div class="menu4"><i class="fa fa-futbol-o fa-2x"></i></div>
+            </a>
+        
+            <a href="index.html">
+              <div class="menu5"><i class="fa fa-home fa-2x"></i></div>
+            </a>
+        
+            <a href="gallery.html"> <div class="menu6"><i class="fa fa-camera fa-2x"></i></div>
+            </a>
+        
+            <div class="mask2"><i class="fa fa-bars fa-3x"></i></div>
+          </div>
+        
+        
+        
+        
+          <div id="aboutArea">
+              <div id="pageName">
+                  <h2>Gallery</h2>
+              </div>
+              <section>
+                  <ul class="carousel">
+                    <li class="items main-pos" id="1">
+                        <img src="abt_pht/8.webp" />            
+                    <li class="items right-pos" id="2">
+                      <img src="abt_pht/4.webp" />
+                    </li>
+                    <li class="items back-pos" id="3">
+                      <img src="abt_pht/5.webp"/>
+                    </li>
+                    <li class="items back-pos" id="4">
+                      <img src="abt_pht/6.webp"/>
+                    </li>
+        
+                    <li class="items back-pos" id="5">
+                      <img src="abt_pht/9.webp"/>
+                    </li>
+                    <li class="items back-pos" id="6">
+                        <img src="abt_pht/7.webp"/>
+                    </li>
+                    <li class="items back-pos" id="7"><img src="abt_pht/13.webp"/>
+                    </li>
+                    <li class="items back-pos" id="8">
+                            <img src="abt_pht/1.webp"/>
+                    </li>
+                    <li class="items back-pos" id="9">
+                            <img src="abt_pht/2.webp"/>
+                    </li>
+                    <li class="items back-pos" id="10">
+                            <img src="abt_pht/3.webp"/>
+                    </li>
+                    <li class="items left-pos" id="11">
+                            <img src="abt_pht/10.webp"/>
+                    </li>
+                    
+                  </ul>
+                <span>
+                  
+                  <div id="prev"><i class="fa  fa-arrow-left fa-2x"></i></div>
+                  <div id="next"><i class="fa  fa-arrow-right fa-2x"></i></div>
+                  
+                </span>
+                </section>
+        
+        
+        
+          </div>
+        
+        
+        
+        
+        
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script>
+            $(document).ready(function () {
+              //Preloader
+              $(window).on('load', function () {
+                  console.log('aa');
+                preloaderFadeOutTime = 500;
+                function hidePreloader() {
+                  let preloader = $('.loader');
+                  preloader.fadeOut(preloaderFadeOutTime);
+                }
+                hidePreloader();
+              });
+            });
+          </script>
+        
+          <script src="gallery_res/gallery.js"></script>
+        </body>
+        
+        </html>
