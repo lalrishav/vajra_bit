@@ -34,12 +34,12 @@ $(document).ready(function() {
         c++;
         if((c%2)!==0){
           $('#aboutArea').css('filter', 'blur(4px)').css('transform','scale(1.01)');
-            $('#aboutAreaMob').css('filter', 'blur(4px)').css('transform','scale(1.01)');
+            $('#gallerymob').css('filter', 'blur(4px)').css('transform','scale(1.01)');
           }
         if(c%2===0){
           
             $('#aboutArea').css('filter', '').css('transform','scale(1)');
-            $('#aboutAreaMob').css('filter', '').css('transform','scale(1)');
+            $('#gallerymob').css('filter', '').css('transform','scale(1)');
         
         } });
 
@@ -149,6 +149,7 @@ $('li').click(function() {
     swap('clockwise'); 
   }
 });
+
 
 
   
