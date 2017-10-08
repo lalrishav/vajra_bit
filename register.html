@@ -44,7 +44,9 @@
                     
                     <a href="events.html"> <div class="menu4"><i class="fa fa-futbol-o fa-2x"></i></div>
                     </a>
-                   
+                    <a href="gallery.html">
+                        <div class="menu6"><i class="fa fa-camera fa-2x"></i></div>
+                    </a>
                     <a href="index.html"><div class="menu5"><i class="fa fa-home fa-2x"></i></div></a>
                     <div class="mask2"><i class="fa fa-bars fa-3x"></i></div>
             </div>
@@ -79,25 +81,29 @@
       var active3 = false;
       var active4 = false;
       var active5 = false;
+      var active6 = false;
       let c = 0;
-         
+    
         $('.topLeftMenu').on('click', function() {
         
-        if (!active1) $(this).find('.menu1').css({'background-color': '#fbcfie', 'transform': 'translate(0px,130px)'});
+        if (!active1) $(this).find('.menu1').css({'background-color': '#fbcfie', 'transform': 'translate(-20px,135px)'});
         else $(this).find('.menu1').css({'background-color': '#fbcf1e', 'transform': 'none'}); 
-         if (!active2) $(this).find('.menu2').css({'background-color': '#fbcf1e', 'transform': 'translate(65px,110px)'});
+         if (!active2) $(this).find('.menu2').css({'background-color': '#fbcf1e', 'transform': 'translate(45px,125px)'});
         else $(this).find('.menu2').css({'background-color': '#fbcf1e', 'transform': 'none'});
-          if (!active3) $(this).find('.menu3').css({'background-color': '#fbcf1e', 'transform': 'translate(115px,65px)'});
+          if (!active3) $(this).find('.menu3').css({'background-color': '#fbcf1e', 'transform': 'translate(103px,100px)'});
         else $(this).find('.menu3').css({'background-color': '#fbcf1e', 'transform': 'none'});
-          if (!active4) $(this).find('.menu4').css({'background-color': '#fbcf1e', 'transform': 'translate(130px,0px)'});
+          if (!active4) $(this).find('.menu4').css({'background-color': '#fbcf1e', 'transform': 'translate(145px,-23px)'});
         else $(this).find('.menu4').css({'background-color': '#fbcf1e', 'transform': 'none'});
-        if (!active5) $(this).find('.menu5').css({'background-color': '#fbcf1e', 'transform': 'translate(49px,45px)'});
+        if (!active5) $(this).find('.menu5').css({'background-color': '#fbcf1e', 'transform': 'translate(60px,48px)'});
         else $(this).find('.menu5').css({'background-color': '#fbcf1e', 'transform': 'none'});
+        if (!active6) $(this).find('.menu6').css({'background-color': '#fbcf1e', 'transform': 'translate(133px,40px)'});
+        else $(this).find('.menu6').css({'background-color': '#fbcf1e', 'transform': 'none'});
         active1 = !active1;
         active2 = !active2;
         active3 = !active3;
         active4 = !active4;
         active5 = !active5;
+        active6 = !active6;
           
         });
          $('.mask2').on('click', function() {
