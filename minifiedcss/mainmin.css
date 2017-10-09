@@ -1,1 +1,304 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald:300);.loader{position:fixed;top:0;left:0;right:0;bottom:0;background-color:#ffc000;z-index:999999}.sk-cube-grid{width:40px;height:40px;position:absolute;top:48%;left:48%}.sk-cube-grid .sk-cube{width:33%;height:33%;background-color:#333;float:left;-webkit-animation:sk-cubeGridScaleDelay 1.3s infinite ease-in-out;animation:sk-cubeGridScaleDelay 1.3s infinite ease-in-out}.sk-cube-grid .sk-cube1{-webkit-animation-delay:.2s;animation-delay:.2s}.sk-cube-grid .sk-cube2{-webkit-animation-delay:.3s;animation-delay:.3s}.sk-cube-grid .sk-cube3{-webkit-animation-delay:.4s;animation-delay:.4s}.sk-cube-grid .sk-cube4{-webkit-animation-delay:.1s;animation-delay:.1s}.sk-cube-grid .sk-cube5{-webkit-animation-delay:.2s;animation-delay:.2s}.sk-cube-grid .sk-cube6{-webkit-animation-delay:.3s;animation-delay:.3s}.sk-cube-grid .sk-cube7{-webkit-animation-delay:0s;animation-delay:0s}.sk-cube-grid .sk-cube8{-webkit-animation-delay:.1s;animation-delay:.1s}.sk-cube-grid .sk-cube9{-webkit-animation-delay:.2s;animation-delay:.2s}@-webkit-keyframes sk-cubeGridScaleDelay{0%,100%,70%{-webkit-transform:scale3D(1,1,1);transform:scale3D(1,1,1)}35%{-webkit-transform:scale3D(0,0,1);transform:scale3D(0,0,1)}}@keyframes sk-cubeGridScaleDelay{0%,100%,70%{-webkit-transform:scale3D(1,1,1);transform:scale3D(1,1,1)}35%{-webkit-transform:scale3D(0,0,1);transform:scale3D(0,0,1)}}abbr,address,article,aside,audio,b,blockquote,body,body div,caption,cite,code,dd,del,dfn,dl,dt,em,fieldset,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0;font-family:Oswald,sans-serif}a{text-decoration:none}.fadeInUp{animation-delay:2.5s}.fadeInUp:nth-child(2){animation-delay:1.5s}.fadeInUp:nth-child(3){animation-delay:2.8s}.bounceInRight{animation-delay:3s}.bounceInLeft{animation-delay:2.5s}@media only screen and (min-width:768px){.no-webp #landingPage,.webp #landingPage{grid-template-columns:1fr 1fr 1fr 1fr 1fr;height:100%;width:100%;overflow:hidden}#registerButton,.no-webp #landingPage,.webp #landingPage{display:grid;grid-template-rows:1fr 1fr 1fr 1fr}.opBox,.opBox p{top:0;bottom:0;left:0;right:0}.webp #landingPage{background:url(../photos/newbgs/backgroundwithLogo1366webP.webp) center no-repeat;background-size:cover}.no-webp #landingPage{background:url(../backuppngs/newBgspng/backgroundwithLogo1366.png) center no-repeat;background-size:cover}#sportsTagline{grid-row:4/5;grid-column:3/4;text-align:center;font-size:38px;color:#fcbf1e}#registerButton{grid-row:1/2;grid-column:5/6;grid-template-columns:1fr 1fr 1fr 1fr;height:105px}#register{grid-row:2/4;grid-column:2/4;transform:skew(-31deg);background:#fcbf1e;border:3px solid #000}#register p{transform:skew(31deg);font-size:23px}#register:hover{background:#ff0}#logo{grid-row:1/3;grid-column:2/5;background:url(../White_logo.png) center no-repeat;background-size:19%}#vajraTitle{grid-row:2/4;grid-column:2/5;margin-top:-95px;background:url(../vajranew.png) center no-repeat;background-size:32%}#menuArea{grid-column:3/4;grid-row:3/4;z-index:1;margin-top:55px}.opBox{margin:10px auto auto;width:250px;height:40px;border:1px solid #fff;transform:skew(30deg);background-color:#171616}.opBox p{text-align:center;color:#fff;margin-top:2px;font-size:25px;transform:skew(-30deg)}.opBox:hover{background:#fbcf1e}.opBox p:hover{color:#000}#socialMedia{grid-row:4/5;grid-column:5/6;display:grid;grid-template-rows:1fr 1fr 1fr;grid-template-columns:1fr 1fr 1fr}#socialMedia #facebook{grid-row:2/3;grid-column:3/4;margin-left:20px}#socialMedia #instagram{grid-row:3/4;grid-column:3/4;margin-left:20px}.fa-4x{color:#fbcf1e}@keyframes imageAnimation{0%{opacity:0;animation-timing-function:ease-in}8%{opacity:1;animation-timing-function:ease-out}17%{opacity:1}100%,25%{opacity:0}}}@media only screen and (min-width:1920px){#registerButton,.no-webp #landingPage,.webp #landingPage{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;grid-template-rows:1fr 1fr 1fr 1fr}#logo,#menuArea{grid-column:2/4;margin-top:100px}.opBox,.opBox p{top:0;bottom:0;left:0;right:0}.webp #landingPage{height:100%;width:100%;background:url(../photos/newbgs/backgroundwithLogo1920webp.webp) center no-repeat;overflow:hidden}.no-webp #landingPage{height:100%;width:100%;background:url(../backuppngs/newBgspng/backgroundwithLogo1920.png) center no-repeat;overflow:hidden}#sportsTagline{grid-row:5/6;grid-column:2/4;text-align:center;font-size:50px;color:#fcbf1e}#logo{grid-row:1/3;background:url(../White_logo.png) center no-repeat;background-size:20%}#registerButton{grid-row:1/2;grid-column:4/5;height:126px}#register{grid-row:2/4;grid-column:2/4;transform:skew(-31deg);background:#fcbf1e;border:3px solid #000;margin-left:159px;margin-top:10px}#register p{transform:skew(31deg);font-size:40px}#register:hover{background:#ff0}#vajraTitle{grid-row:1/4;grid-column:2/4;margin-top:216px;background:url(../vajranew.png) center no-repeat;background-size:40%}#menuArea{grid-row:3/5;z-index:1}.opBox{margin:10px auto auto;width:250px;height:40px;border:2px solid #fff;transform:skew(30deg);background-color:#171616}.opBox p{text-align:center;color:#fff;margin-top:2px;font-size:25px;transform:skew(-30deg)}.opBox:hover{background:#fbcf1e}.opBox p:hover{color:#000}#socialMedia{grid-row:5/6;grid-column:4/5;display:grid;grid-template-rows:1fr 1fr 1fr;grid-template-columns:1fr 1fr 1fr}#socialMedia #facebook{grid-row:1/2;grid-column:3/4;margin-left:70px}#socialMedia #instagram{grid-row:2/3;grid-column:3/4;margin-left:40px}#socialMedia #twitter{grid-row:3/4;grid-column:3/4;margin-left:10px}.fa-4x{color:#fbcf1e}}@media only screen and (max-width:768px){#AnnualSports,.opBox,.opBox p{top:0;bottom:0;left:0;right:0}#facebook,#logo,#registerButton{grid-row:1/2}.no-webp #landingPage,.webp #landingPage{grid-template-rows:1fr 1fr 1fr 1fr 1fr;height:100%;width:100%;overflow:hidden}#registerButton,.no-webp #landingPage,.webp #landingPage{display:grid;grid-template-columns:1fr 1fr 1fr 1fr}#menuArea,#vajraTitle{z-index:1;grid-column:2/4}.webp #landingPage{background:url(../photos/newbgs/mobilebackground480webp.webp) center no-repeat;background-size:cover}.no-webp #landingPage{background:url(../backuppngs/newBgspng/mobilebackground3.png) center no-repeat;background-size:cover}#sportsTagline{grid-row:4/5;grid-column:2/4;text-align:center;font-size:20px;color:#fcbf1e;margin-top:20px}#AnnualSports,.opBox p{text-align:center;color:#fff}#registerButton{grid-column:4/4;grid-template-rows:1fr 1fr 1fr 1fr;height:77px;margin-left:-36px}#register{grid-row:2/4;grid-column:2/4;transform:skew(-31deg);background:#fcbf1e;border:3px solid #000}#register p{transform:skew(31deg);font-size:17px}#logo{grid-column:3/4;background:url(../White_logo.png) center no-repeat;background-size:113%;margin-bottom:-100px}.no-webp #bitlogo,.webp #bitlogo{grid-column:2/3;margin-bottom:-100px;margin-left:3px;grid-row:1/2}.webp #bitlogo{background:url(../bitlogoWebp.webp) left no-repeat;background-size:100%}.no-webp #bitlogo{background:url(../backuppngs/bitlogo.png) left no-repeat;background-size:100%}#instagram,#vajraTitle{grid-row:2/3}#vajraTitle{background:url(../vajranew.png) center no-repeat;background-size:110%;margin-bottom:-47px}#menuArea{grid-row:3/4;margin-top:10px}#AnnualSports{font-size:30px;grid-row:4/5;grid-column:2/4;margin:auto}.opBox{margin:5px auto auto;width:150px;height:40px;border:1px solid #fff;transform:skew(30deg);background-color:#171616}#facebook,#instagram{grid-column:1/2;margin-left:20px}.opBox p{margin-top:2px;font-size:20px;transform:skew(-30deg)}.opBox:hover{background:#fbcf1e}.opBox p:hover{color:#000}#socialMedia{grid-row:5/7;grid-column:1/2;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr 1fr}.fa-4x{color:#fbcf1e}.fa{font-size:3em!important}.no-cssgrid #landingPage{background:red}}@media only screen and (max-width:360px){.no-webp #landingPage,.webp #landingPage{grid-template-rows:1fr 1fr 1fr 1fr 1fr;height:100%;width:100%}#registerButton,.no-webp #landingPage,.webp #landingPage{display:grid;grid-template-columns:1fr 1fr 1fr 1fr}.webp #landingPage{background:url(../photos/newbgs/mobilebackground3webp.webp) center no-repeat;background-size:cover}.no-webp #landingPage{background:url(../photos/newbgs/index320.png) center no-repeat;background-size:cover}#sportsTagline{grid-row:4/5;grid-column:3/4;text-align:center;font-size:20px;color:#fcbf1e;margin-left:-15px;margin-top:10px}#logo{grid-row:1/2;grid-column:3/4;background:url(../White_logo.png) center no-repeat;background-size:23%;margin-bottom:-100px;margin-right:-77px}.no-webp #bitlogo,.webp #bitlogo{margin-right:-153px;margin-left:63px;grid-row:1/2;grid-column:2/3}.webp #bitlogo{background:url(../bitlogoWebp.webp) center no-repeat;background-size:77%}.no-webp #bitlogo{background:url(../backuppngs/bitlogo.png) center no-repeat;background-size:77%}#registerButton{grid-row:1/2;grid-column:3/4;grid-template-rows:1fr 1fr 1fr 1fr;height:68px;margin-left:191px;width:230%}#register{grid-row:2/4;grid-column:2/4;transform:skew(-31deg);background:#fcbf1e;border:3px solid #000}#register p{transform:skew(31deg);font-size:17px}#vajraTitle{background:url(../vajranew.png) center no-repeat;background-size:53%;margin-bottom:-56px;margin-top:6px}#socialMedia{grid-row:5/6;grid-column:1/4}#menuArea{z-index:1;margin-top:25px;}#facebook{grid-row:5/6;grid-column:1/2;margin-left:8px}#instagram{grid-row:5/6;grid-column:2/3;margin-left:-113px}.opBox{top:0;bottom:0;left:0;right:0;margin:5px auto auto;width:126px;height:32px;border:1px solid #fff;transform:skew(30deg);background-color:#171616}.opBox p{font-size:16px}.fa{font-size:2em!important}}
+@import url(https://fonts.googleapis.com/css?family=Oswald:300);
+.loader {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ffc000;
+z-index: 999999;
+}
+.sk-cube-grid {
+width: 40px;
+height: 40px;
+position: absolute;
+top: 48%;
+left: 48%}
+.sk-cube-grid .sk-cube {
+width: 33%;
+height: 33%;
+background-color: #333;
+float: left;
+-webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+.sk-cube-grid .sk-cube1 {
+-webkit-animation-delay: .2s;
+animation-delay: .2s;
+}
+.sk-cube-grid .sk-cube2 {
+-webkit-animation-delay: .3s;
+animation-delay: .3s;
+}
+.sk-cube-grid .sk-cube3 {
+-webkit-animation-delay: .4s;
+animation-delay: .4s;
+}
+.sk-cube-grid .sk-cube4 {
+-webkit-animation-delay: .1s;
+animation-delay: .1s;
+}
+.sk-cube-grid .sk-cube5 {
+-webkit-animation-delay: .2s;
+animation-delay: .2s;
+}
+.sk-cube-grid .sk-cube6 {
+-webkit-animation-delay: .3s;
+animation-delay: .3s;
+}
+.sk-cube-grid .sk-cube7 {
+-webkit-animation-delay: 0s;
+animation-delay: 0s;
+}
+.sk-cube-grid .sk-cube8 {
+-webkit-animation-delay: .1s;
+animation-delay: .1s;
+}
+.sk-cube-grid .sk-cube9 {
+-webkit-animation-delay: .2s;
+animation-delay: .2s;
+}
+@-webkit-keyframes sk-cubeGridScaleDelay {
+0%, 100%, 70% {
+-webkit-transform: scale3D(1, 1, 1);
+transform: scale3D(1, 1, 1);
+}
+35% {
+-webkit-transform: scale3D(0, 0, 1);
+transform: scale3D(0, 0, 1);
+}
+}@keyframes sk-cubeGridScaleDelay {
+0%, 100%, 70% {
+-webkit-transform: scale3D(1, 1, 1);
+transform: scale3D(1, 1, 1);
+}
+35% {
+-webkit-transform: scale3D(0, 0, 1);
+transform: scale3D(0, 0, 1);
+}
+}abbr, address, article, aside, audio, b, blockquote, body, body div, caption, cite, code, dd, del, dfn, dl, dt, em, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: 0 0;
+font-family: Oswald, sans-serif;
+}
+#bitlogo {
+    display: none;
+}
+a {
+text-decoration: none;
+}
+.fadeInUp {
+animation-delay: 2.5s;
+}
+.fadeInUp:nth-child(2) {
+animation-delay: 1.5s;
+}
+.fadeInUp:nth-child(3) {
+animation-delay: 2.8s;
+}
+.bounceInRight {
+animation-delay: 3s;
+}
+.bounceInLeft {
+animation-delay: 2.5s;
+}
+
+.no-webp #landingPage, .webp #landingPage {
+
+height: 100%;
+width: 100%;
+overflow: hidden;
+}
+
+/*.webp #landingPage {
+background: url(../photos/newbgs/backgroundwithLogo1366webP.webp) center no-repeat;
+background-size: cover;
+}*/
+ #landingPage {
+background: url(../backuppngs/newBgspng/backgroundwithLogo1366.png) center no-repeat;
+background-size: cover;
+}
+#registerButton {
+height: 105px;
+}
+#register {
+transform: skew(-31deg);
+background: #fcbf1e;
+border: 3px solid #000;
+}
+#registerButton {
+    position: absolute;
+    top: 15px;
+    right: 150px;
+}
+#register p {
+transform: skew(31deg);
+font-size: 23px;
+}
+#register:hover {
+background: #ff0;
+}
+#pagecenter {
+    text-align: center;
+    margin-top: 4%;
+}
+#logo img{
+    height: 20%;
+}
+#vajraTitle img {
+    height: 22%;
+    margin-top: -25px;
+}
+#menuArea {
+    margin-top: 20px;
+    z-index: 1;
+}
+#menuArea a{
+    margin-top: 10px;
+}
+.opBox {
+margin-top: 10px;
+width: 250px;
+height: 40px;
+border: 1px solid #fff;
+transform: skew(30deg);
+background-color: #171616;
+}
+.opBox p {
+text-align: center;
+color: #fff;
+margin-top: 2px;
+font-size: 25px;
+transform: skew(-30deg);
+}
+.opBox:hover {
+background: #fbcf1e;
+}
+.opBox p:hover {
+color: #000;
+}
+
+#sportsTagline {
+    
+    margin-top: 25px;    
+    text-align: center;
+    font-size: 38px;
+    color: #fcbf1e;
+    }
+    
+#socialMedia {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+
+}
+#socialMedia #facebook {
+
+margin-left: 20px;
+}
+
+.fa-4x {
+color: #fbcf1e;
+}
+@keyframes imageAnimation {
+0% {
+opacity: 0;
+animation-timing-function: ease-in;
+}
+8% {
+opacity: 1;
+animation-timing-function: ease-out;
+}
+17% {
+opacity: 1;
+}
+100%, 25% {
+opacity: 0;
+}
+}
+@media only screen and (min-width:1920px) {
+    .no-webp #landingPage, .webp #landingPage {
+    
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    }
+    
+    .webp #landingPage {
+    background: url(../photos/newbgs/backgroundwithLogo1920webp.webp) center no-repeat;
+    background-size: cover;
+    }
+    .no-webp #landingPage {
+    background: url(../backuppngs/newBgspng/backgroundwithLogo1920.png) center no-repeat;
+    background-size: cover;
+    }
+   
+    }
+@media only screen and (max-width:768px) {
+
+    #socialMedia {
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+    }
+    #socialMedia #facebook {
+        margin-left: 0px;
+    }
+    #registerButton {
+        right: 25px;
+    }
+}
+@media only screen and (max-width:360px) {
+    
+.webp #landingPage {
+background: url(../photos/newbgs/mobilebackground3webp.webp) center no-repeat;
+background-size: cover;
+}
+.no-webp #landingPage {
+background: url(../photos/newbgs/index320.png) center no-repeat;
+background-size: cover;
+}
+#pagecenter {
+    margin-top: 18%;
+}
+#bitlogo {
+    display: inline;
+}
+#bitlogo img{
+    height: 15%; 
+}
+#logo {
+    display: inline;
+}
+#logo img {
+    height: 15%;
+}
+#vajraTitle img {
+    height: 18%;
+    margin-top: -15px;
+}
+.opBox {
+    width: 50%;
+    height: 34px;
+}
+#sportsTagline {
+    font-size: 28px;
+}
+#registerButton {
+    right: 15px;
+}
+#register p {
+    font-size: 15px;
+}
+.opBox p {
+font-size: 16px;
+}
+.fa {
+font-size: 2em!important;
+}
+}
