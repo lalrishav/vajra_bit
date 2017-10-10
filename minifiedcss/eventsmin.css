@@ -1,1 +1,795 @@
-.loader{position:fixed;top:0;left:0;right:0;bottom:0;background-color:#ffc000;z-index:999999}.sk-cube-grid{width:40px;height:40px;position:absolute;top:48%;left:48%}.sk-cube-grid .sk-cube{width:33%;height:33%;background-color:#333;float:left;-webkit-animation:sk-cubeGridScaleDelay 1.3s infinite ease-in-out;animation:sk-cubeGridScaleDelay 1.3s infinite ease-in-out}.sk-cube-grid .sk-cube1{-webkit-animation-delay:.2s;animation-delay:.2s}.sk-cube-grid .sk-cube2{-webkit-animation-delay:.3s;animation-delay:.3s}.sk-cube-grid .sk-cube3{-webkit-animation-delay:.4s;animation-delay:.4s}.sk-cube-grid .sk-cube4{-webkit-animation-delay:.1s;animation-delay:.1s}.sk-cube-grid .sk-cube5{-webkit-animation-delay:.2s;animation-delay:.2s}.sk-cube-grid .sk-cube6{-webkit-animation-delay:.3s;animation-delay:.3s}.sk-cube-grid .sk-cube7{-webkit-animation-delay:0s;animation-delay:0s}.sk-cube-grid .sk-cube8{-webkit-animation-delay:.1s;animation-delay:.1s}.sk-cube-grid .sk-cube9{-webkit-animation-delay:.2s;animation-delay:.2s}@-webkit-keyframes sk-cubeGridScaleDelay{0%,100%,70%{-webkit-transform:scale3D(1,1,1);transform:scale3D(1,1,1)}35%{-webkit-transform:scale3D(0,0,1);transform:scale3D(0,0,1)}}@keyframes sk-cubeGridScaleDelay{0%,100%,70%{-webkit-transform:scale3D(1,1,1);transform:scale3D(1,1,1)}35%{-webkit-transform:scale3D(0,0,1);transform:scale3D(0,0,1)}}.modalDialog{position:fixed;font-family:Abel,sans-serif;font-weight:100;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,.8);z-index:99999;opacity:0;-webkit-transition:opacity .4s ease-in;-moz-transition:opacity .4s ease-in;transition:opacity .4s ease-in;pointer-events:none}.modalDialog>div{width:400px;height:400px;overflow-y:auto;position:relative;margin:10% auto;padding:15px 30px 15px 35px;border-radius:10px;background:#fcbf1e;background:-moz-linear-gradient(#fcbf1e,#fff);background:-webkit-linear-gradient(#fcbf1e,#fff);background:-o-linear-gradient(#fcbf1e,#fff)}.modalDialog>div::-webkit-scrollbar{width:.4em}.modalDialog>div::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3)}.modalDialog>div::-webkit-scrollbar-thumb{background-color:#171616;outline:#708090 solid 1px}.modalDialog h2{font-size:42px;text-align:center}.modalDialog p{font-size:18px;text-align:center}.close{background:#606061;color:#FFF;line-height:25px;position:absolute;right:443px;text-align:center;top:126px;width:24px;text-decoration:none;font-weight:700;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;-moz-box-shadow:1px 1px 3px #000;-webkit-box-shadow:1px 1px 3px #000;box-shadow:1px 1px 3px #000;z-index:10000000}.close:hover{background:#fbcf1e}@media only screen and (min-width:768px){.no-webp #eventsPage,.webp #eventsPage{display:grid;grid-template-columns:repeat(21,91px);grid-template-rows:repeat(12,91px);overflow:hidden;height:100%;width:100%}#badmintonDiv,#volleyballDiv{grid-row:5/7;margin-top:-50px}#chessDiv,#tabletennisDiv{grid-row:7/9;margin-top:-100px}.webp #eventsPage{background:url(../photos/newbgs/DesktopHDotherPages1366webp.webp) center no-repeat;background-size:cover}.no-webp #eventsPage{background:url(../backuppngs/newBgspng/DesktopHDotherPages1366.png) center no-repeat;background-size:cover}#pageName{grid-column:7/7}#footballContent{display:none;height:100%;width:100%;background:red}#footerLogo{grid-row:7/10;grid-column:9/21;background:url(../vajranew.png) center no-repeat;background-size:17%;margin-top:92px}#pageName p{font-size:100px;//transform:skew(-31deg);color:#fbcf1e;font-family:Abel,sans-serif!important;font-weight:100}.eventsDiv{width:300px;height:120px;transform:skew(-31deg)!important;//background:#fbcf1e;border:3px solid #000}.mask2,.menu1,.menu2,.menu3,.menu4,.menu5,.menu6{width:56px;height:57px;border-radius:50%}.mask2,.topleftMenu{width:60px;height:60px}.topleftMenu{top:34px;left:34px;position:fixed;display:block;background-color:transparent;z-index:20;-webkit-box-shadow:0 0 5px 0 rgba(252,223,103,.75);-moz-box-shadow:0 0 5px 0 rgba(252,223,103,.75);box-shadow:0 0 5px 0 rgba(252,223,103,.75);border-radius:50%}.menu1,.menu2,.menu3,.menu4,.menu5,.menu6{background-color:#fbcf1e;position:absolute;line-height:70px;top:0;left:0;z-index:19;color:#171616;text-align:center}.menu1{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) .2s}.menu2{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) .4s}.menu3{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) .6s}.menu4{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) 1s}.menu5{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) 1.1s}.menu6{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) .8s}.mask2{top:34px;left:34px;background:#fbcf1e;z-index:21;color:#171616;text-align:center;line-height:120px;cursor:pointer;position:fixed}.topleftMenu .fa-2x,.topleftMenu .fa-3x{font:normal normal normal 14px/2 FontAwesome;font-size:2em}#footballDiv{grid-column:3/9;grid-row:3/5}#basketballDiv{grid-column:7/13;grid-row:3/5;margin-left:-45px}#cricketDiv{grid-column:11/17;grid-row:3/5;margin-left:-90px}#badmintonDiv{grid-column:4/10}#volleyballDiv{grid-column:8/14;margin-left:-46px}#chessDiv{grid-column:5/11}#tabletennisDiv{grid-column:9/15;margin-left:-45px}#badmintonDiv #eventName,#basketballDiv #eventName,#chessDiv #eventName,#cricketDiv #eventName,#footballDiv #eventName,#tabletennisDiv #eventName,#volleyballDiv #eventName{opacity:0;height:100%;width:100%;margin-top:-121px;z-index:1;background-color:rgba(251,207,30,.6)}.no-webp #badmintonImg,.no-webp #basketballimg,.no-webp #chessImg,.no-webp #cricketImg,.no-webp #footballImg,.no-webp #tableTennisImg,.no-webp #volleyballimg,.webp #badmintonImg,.webp #basketballimg,.webp #chessImg,.webp #cricketImg,.webp #footballImg,.webp #tableTennisImg,.webp #volleyballimg{height:100%;width:100%;z-index:-1}#badmintonDiv #eventName p,#basketballDiv #eventName p,#chessDiv #eventName p,#footballDiv #eventName p,#tabletennisDiv #eventName p,#volleyballDiv #eventName p,footballDiv #eventName p{text-align:center;font-size:50px;padding-top:19px;color:#000;padding-right:30px;transform:skew(31deg)}#cricketDiv #eventName p{text-align:center;font-size:50px;padding-top:19px;color:#000;padding-right:19px;transform:skew(31deg)}#badmintonDiv #eventName:hover,#basketballDiv #eventName:hover,#chessDiv #eventName:hover,#cricketDiv #eventName:hover,#footballDiv #eventName:hover,#tabletennisDiv #eventName:hover,#volleyballDiv #eventName:hover{opacity:1}.no-webp #basketballimg{background:url(../backuppngs/sports/basketball.png) center;background-size:100%}.no-webp #cricketImg{background:url(../backuppngs/sports/cricket.png) center no-repeat;background-size:100%}.no-webp #footballImg{background:url(../backuppngs/sports/football.png) center no-repeat;background-size:100%;//transform:skew(31deg)}.no-webp #badmintonImg{background:url(../backuppngs/sports/badminton.png) center no-repeat;background-size:100%}.no-webp #volleyballimg{background:url(../backuppngs/sports/volleyball.png) center no-repeat;background-size:100%}.no-webp #tableTennisImg{background:url(../backuppngs/sports/tabletennis.png) center no-repeat;background-size:100%}.no-webp #chessImg{background:url(../backuppngs/sports/chess.png) center no-repeat;background-size:100%}.webp #basketballimg{background:url(../photos/updatedPics/basketball.webp) center;background-size:100%}.webp #cricketImg{background:url(../photos/updatedPics/cricket.webp) center no-repeat;background-size:100%}.webp #footballImg{background:url(../photos/updatedPics/football.webp) center no-repeat;background-size:100%;//transform:skew(31deg)}.webp #badmintonImg{background:url(../photos/updatedPics/badminton.webp) center no-repeat;background-size:100%}.webp #volleyballimg{background:url(../photos/updatedPics/volleyball.webp) center no-repeat;background-size:100%}.webp #tableTennisImg{background:url(../photos/updatedPics/tabletennis.webp) center no-repeat;background-size:100%}.webp #chessImg{background:url(../photos/updatedPics/chess.webp) center no-repeat;background-size:100%}}@media only screen and (min-width:1920px){.no-webp #eventsPage,.nowebp #eventsPage,.webp #eventsPage{grid-template-columns:repeat(21,91px);grid-template-rows:repeat(12,91px);height:100%;width:100%;overflow:hidden;display:grid}#badmintonDiv,#volleyballDiv{grid-row:5/7;margin-top:15px}#chessDiv,#tabletennisDiv{grid-row:7/9;margin-top:30px}fadeInLeft:nth-child(1){animation-delay:.3}fadeInLeft:nth-child(2){animation-delay:.6}fadeInLeft:nth-child(3){animation-delay:.9}fadeInLeft:nth-child(4){animation-delay:.12}fadeInLeft:nth-child(5){animation-delay:.15}fadeInLeft:nth-child(6){animation-delay:.18}fadeInLeft:nth-child(7){animation-delay:.21}.webp #eventsPage{background:url(../photos/newbgs/DesktopHDotherPageswebp.webp) center no-repeat;background-size:cover}.no-webp #eventsPage,.nowebp #eventsPage{background:url(../backuppngs/newBgspng/DesktopHDotherPages.png) center no-repeat;background-size:cover}#registerButton{display:grid;grid-row:1/3;grid-column:18/22;grid-template-columns:1fr 1fr 1fr 1fr;grid-template-rows:1fr 1fr 1fr 1fr}#footerLogo{margin-top:-150px;grid-row:11/13;grid-column:19/22;background:url(../vajranew.png) center no-repeat;background-size:105%;margin-left:79px}#pageName{grid-column:10/13;grid:1/3}#pageName p{font-size:100px;//transform:skew(-31deg);color:#fbcf1e;font-family:Abel,sans-serif!important;font-weight:100}.eventsDiv{width:400px;height:180px;transform:skew(-31deg)!important;//background:#fbcf1e;border:3px solid #000}.mask2,.menu1,.menu2,.menu3,.menu4,.menu5,.topleftMenu{width:57px;height:56px;border-radius:50%}.topleftMenu{top:34px;left:34px;position:fixed;display:block;background-color:transparent;z-index:20;-webkit-box-shadow:0 0 5px 0 rgba(252,223,103,.75);-moz-box-shadow:0 0 5px 0 rgba(252,223,103,.75);box-shadow:0 0 5px 0 rgba(252,223,103,.75);border-radius:50%}.menu1,.menu2,.menu3,.menu4,.menu5,.menu6{background-color:#fbcf1e;position:absolute;line-height:70px;top:0;left:0;z-index:19;color:#171616;text-align:center}.menu1{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) .2s}.menu2{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) .4s}.menu3{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) .6s}.menu4{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) 1s}.menu5{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) .8s}.mask2{top:34px;left:34px;background:#fbcf1e;z-index:21;color:#171616;text-align:center;line-height:120px;cursor:pointer;position:fixed}.topleftMenu .fa-2x,.topleftMenu .fa-3x{font:normal normal normal 14px/2 FontAwesome;font-size:2em}@keyframes movePic{0%{background-size:100%;opacity:.5}50%{background-size:120%;opacity:.6}100%{background-size:140%;opacity:1}}#footballDiv{grid-column:4/10;grid-row:3/5;background:#fbcf1e}.webp #footballImg{height:100%;width:100%;background:url(../photos/updatedPics/football.webp) center no-repeat;background-size:100%;z-index:-1}.no-webp #footballImg{height:100%;width:100%;background:url(../backuppngs/sports/football.png) center no-repeat;background-size:100%;z-index:-1}#basketballDiv{grid-column:9/15;grid-row:3/5;margin-left:-35px}#badmintonDiv #eventName,#basketballDiv #eventName,#chessDiv #eventName,#cricketDiv #eventName,#footballDiv #eventName,#tabletennisDiv #eventName,#volleyballDiv #eventName{opacity:0;height:100%;width:100%;margin-top:-180px;z-index:1;background-color:rgba(251,207,30,.6)}.no-webp #badmintonImg,.no-webp #basketBallimg,.no-webp #chessImg,.no-webp #cricketImg,.no-webp #tableTennisImg,.no-webp #volleyballImg,.webp #badmintonImg,.webp #basketBallimg,.webp #chessImg,.webp #cricketImg,.webp #tableTennisImg,.webp #volleyballimg{z-index:-1;height:100%;width:100%}.webp #basketBallimg{background:url(../photos/updatedPics/basketball.webp) center no-repeat;background-size:100%}.no-webp #basketBallimg{background:url(../backuppngs/sports/basketball.png) center no-repeat;background-size:100%}#badmintonDiv #eventName:hover,#basketballDiv #eventName:hover,#chessDiv #eventName:hover,#cricketDiv #eventName:hover,#footballDiv #eventName:hover,#tabletennisDiv #eventName:hover,#volleyballDiv #eventName:hover{opacity:1}#badmintonDiv #eventName p,#basketballDiv #eventName p,#chessDiv #eventName p,#cricketDiv #eventName p,#footballDiv #eventName p,#tabletennisDiv #eventName p,#volleyballDiv #eventName p{text-align:center;font-size:50px;padding-top:50px;color:#000;padding-right:44px;transform:skew(31deg)}#cricketDiv{grid-column:14/20;grid-row:3/5;margin-left:-69px}.webp #cricketImg{background:url(../photos/updatedPics/cricket.webp) center no-repeat;background-size:100%}.no-webp #cricketImg{background:url(../backuppngs/sports/cricket.png) center no-repeat;background-size:100%}#badmintonDiv{grid-column:6/12}.webp #badmintonImg{background:url(../photos/updatedPics/badminton.webp) center no-repeat;background-size:100%}.no-webp #badmintonImg{background:url(../backuppngs/sports/badminton.png) center no-repeat;background-size:100%}#volleyballDiv{grid-column:11/17;margin-left:-32px}.webp #volleyballimg{background:url(../photos/updatedPics/volleyball.webp) center no-repeat;background-size:100%}.no-webp #volleyballImg{background:url(../backuppngs/sports/volleyball.png) center no-repeat;background-size:100%}#tabletennisDiv{grid-column:7/13;margin-left:-45px}.webp #tableTennisImg{background:url(../photos/updatedPics/tabletennis.webp) center no-repeat;background-size:100%}.no-webp #tableTennisImg{background:url(../backuppngs/sports/tabletennis.png) center no-repeat;background-size:100%}#chessDiv{grid-column:12/18;margin-left:-79px}.webp #chessImg{background:url(../photos/updatedPics/chess.webp) center no-repeat;background-size:100%}.no-webp #chessImg{background:url(../backuppngs/sports/chess.png) center no-repeat;background-size:100%}#footballContent{display:none;height:100%;width:100%;background:red}.close{right:719px;top:182px}}@media only screen and (max-width :768px){#badmintonDiv,#cricketDiv{grid-row:4/6;margin-top:19px}#cricketDiv,#volleyballDiv{grid-column:2/4}#chessDiv,#volleyballDiv{grid-row:5/7;margin-top:38px}#eventsPage{display:grid;grid-template-columns:repeat(6,80px);grid-template-rows:repeat(13,80px);height:100%;width:100%;background:url(../photos/mobilenew2.png) center no-repeat;background-size:cover;overflow:hidden}#pageName,.eventsDiv{height:88px;//background:#fbcf1e}#pageName{grid-column:3/6;grid-row:1/4;width:100px;transform:skew(-31deg)!important;//border:3px solid #fbcf1e;color:#fbcf1e;margin-top:30px;font-size:65px}.eventsDiv{width:126px;transform:skew(-20deg);border:2px solid #000;margin-left:-26px}#badmintonDiv,#chessDiv{grid-column:4/6;margin-left:-47px}#footballDiv{grid-row:3/5;grid-column:2/3}#footballContent{display:none}#basketBallDiv{grid-column:4/6;grid-row:3/5;margin-left:-45px}#tabletennisDiv{width:206px;grid-column:2/6;grid-row:7/9;margin-top:-25px}#badmintonDiv #eventName,#basketballDiv #eventName,#chessDiv #eventName,#cricketDiv #eventName,#footballDiv #eventName,#tabletennisDiv #eventName,#volleyballDiv #eventName{height:100%;width:100%;margin-top:-88px;z-index:1;background-color:rgba(23,22,22,.6)}.no-webp #badmintonImg,.no-webp #basketballimg,.no-webp #chessImg,.no-webp #cricketImg,.no-webp #footballImg,.no-webp #tableTennisImg,.no-webp #volleyballimg,.webp #badmintonImg,.webp #basketballimg,.webp #chessImg,.webp #cricketImg,.webp #footballImg,.webp #tableTennisImg,.webp #volleyballimg{height:100%;width:100%;z-index:-1}#badmintonDiv #eventName p,#basketballDiv #eventName p,#chessDiv #eventName p,#cricketDiv #eventName p,#footballDiv #eventName p,#tabletennisDiv #eventName p,#volleyballDiv #eventName p{text-align:center;font-size:23px;color:#fff;margin-left:13px;//transform:skew(-31deg);padding-top:22px}.no-webp #footballImg,.webp #footballImg{//transform:skew(31deg)}.webp #basketballimg{background:url(../photos/updatedPics/basketball_m.webp) center}.webp #cricketImg{background:url(../photos/updatedPics/cricket_m.webp) center no-repeat;background-size:cover}.webp #footballImg{background:url(../photos/updatedPics/football_m.webp) center no-repeat;background-size:cover}.webp #badmintonImg{background:url(../photos/updatedPics/badminton_m.webp) center no-repeat;background-size:cover}.webp #volleyballimg{background:url(../photos/updatedPics/volleyball_m.webp) center no-repeat;background-size:cover}.webp #tableTennisImg{background:url(../photos/updatedPics/tabletennis_m.webp) center no-repeat;background-size:cover}.webp #chessImg{background:url(../photos/updatedPics/chess_m.webp) center no-repeat;background-size:cover}.no-webp #basketballimg{background:url(../backuppngs/sports/basketball_m.png) center}.no-webp #cricketImg{background:url(../backuppngs/sports/cricket_m.png) center no-repeat;background-size:cover}.no-webp #footballImg{background:url(../backuppngs/sports/football_m.png) center no-repeat;background-size:cover}.no-webp #badmintonImg{background:url(../backuppngs/sports/badminton_m.png) center no-repeat;background-size:cover}.no-webp #volleyballimg{background:url(../backuppngs/sports/volleyball_m.png) center no-repeat;background-size:cover}.no-webp #tableTennisImg{background:url(../backuppngs/sports/tabletennis_m.png) center no-repeat;background-size:cover}.no-webp #chessImg{background:url(../backuppngs/sports/chess_m.png) center no-repeat;background-size:cover}.mask2,.menu1,.menu2,.menu3,.menu4,.menu5,.menu6,.topleftMenu{width:57px;height:56px;border-radius:50%}.mask2,.topleftMenu{width:60px;height:60px}.topleftMenu{top:34px;left:34px;position:fixed;display:block;background-color:transparent;z-index:20;-webkit-box-shadow:0 0 5px 0 rgba(252,223,103,.75);-moz-box-shadow:0 0 5px 0 rgba(252,223,103,.75);box-shadow:0 0 5px 0 rgba(252,223,103,.75);border-radius:50%}.menu1,.menu2,.menu3,.menu4,.menu5,.menu6{background-color:#fbcf1e;position:absolute;line-height:70px;top:0;left:0;z-index:19;color:#171616;text-align:center}.menu1{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) .2s}.menu2{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) .4s}.menu3{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) .6s}.menu4{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) 1s}.menu5{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) 1.1s}.menu6{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) .8s}.mask2{top:34px;left:34px;background:#fbcf1e;z-index:21;color:#171616;text-align:center;line-height:120px;cursor:pointer;position:fixed}.topleftMenu .fa-2x,.topleftMenu .fa-3x{font:normal normal normal 12px/2 FontAwesome;font-size:2em!important}.close{top:32px;right:65px}.modalDialog>div{width:200px;height:500px}}@media only screen and (max-width :360px){#cricketDiv,#volleyballDiv{grid-column:2/4}#chessDiv,#volleyballDiv{grid-row:5/7;margin-top:-1px}#eventsPage{display:grid;grid-template-columns:repeat(6,80px);grid-template-rows:repeat(13,80px);height:100%;width:100%;background:url(../photos/mobilenew3.png) center no-repeat;background-size:cover;overflow-x:hidden}#pageName,.eventsDiv{width:100px;//background:#fbcf1e}#pageName{grid-column:3/6;grid-row:1/4;height:88px;transform:skew(-31deg);//border:3px solid #fbcf1e;color:#fbcf1e;margin-top:30px;font-size:45px}.eventsDiv{height:70px;transform:skew(-31deg)!important;border:2px solid #000;margin-left:-36px}#badmintonDiv,#basketBallDiv,#chessDiv{grid-column:4/6;margin-left:-86px}#footballDiv{grid-row:3/5;grid-column:2/3}#basketBallDiv{grid-row:3/5;width:151px}#cricketDiv{grid-row:4/6;margin-top:-2px}#badmintonDiv{grid-row:4/6;margin-top:-1px;width:146px}#tabletennisDiv{width:150px;grid-column:2/6;grid-row:7/9;margin-top:-76px}#badmintonDiv #eventName,#basketballDiv #eventName,#chessDiv #eventName,#cricketDiv #eventName,#footballDiv #eventName,#tabletennisDiv #eventName,#volleyballDiv #eventName{height:100%;width:100%;margin-top:-70px;z-index:1;background-color:rgba(23,22,22,.6)}#badmintonDiv #eventName p,#basketballDiv #eventName p,#chessDiv #eventName p,#cricketDiv #eventName p,#footballDiv #eventName p,#tabletennisDiv #eventName p,#volleyballDiv #eventName p{text-align:center;font-size:17px;color:#fff;margin-left:-13px;transform:skew(31deg);padding-top:21px}.mask2,.menu1,.menu2,.menu3,.menu4,.menu5,.menu6{width:45px;height:45px;border-radius:50%;color:#171616;text-align:center}.topleftMenu{top:34px;left:34px;position:fixed;display:block;width:45px;height:45px;background-color:transparent;z-index:20;-webkit-box-shadow:0 0 5px 0 rgba(252,223,103,.75);-moz-box-shadow:0 0 5px 0 rgba(252,223,103,.75);box-shadow:0 0 5px 0 rgba(252,223,103,.75);border-radius:50%}.menu1,.menu2,.menu3,.menu4,.menu5,.menu6{background-color:#fbcf1e;position:absolute;line-height:70px;top:0;left:0;z-index:19}.menu1{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) .2s}.menu2{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) .4s}.menu3{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) .6s}.menu4{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) 1s}.menu5{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) 1.1s}.menu6{transition:all .5s cubic-bezier(.68,-.55,.265,1.55) .8s}.mask2{top:34px;left:34px;background:#fbcf1e;z-index:21;line-height:120px;cursor:pointer;position:fixed}.topleftMenu .fa-2x,.topleftMenu .fa-3x{font:normal normal normal 12px/2 FontAwesome;font-size:23px!important}.modalDialog>div{width:200px;height:420px;padding-bottom:40px}.close{top:27px;right:42px}#footballContent{display:none;height:100%;width:100%;background:red}}@media only screen and (max-width :320px){.close{top:21px;right:22px}}
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffc000;
+    z-index: 999999;
+}
+.sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 48%;
+    left: 48%}
+.sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: #333;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+    animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+.sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+}
+.sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+}
+.sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+}
+.sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s;
+}
+.sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+}
+.sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+}
+.sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s;
+}
+.sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+}
+@-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 100%, 70% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+}
+35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+}
+}@keyframes sk-cubeGridScaleDelay {
+    0%, 100%, 70% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+}
+35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+}
+}.modalDialog {
+    position: fixed;
+    font-family: Abel, sans-serif;
+    font-weight: 100;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity .4s ease-in;
+    -moz-transition: opacity .4s ease-in;
+    transition: opacity .4s ease-in;
+    pointer-events: none;
+}
+.modalDialog>div {
+    width: 400px;
+    height: 400px;
+    overflow-y: auto;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 30px 15px 35px;
+    border-radius: 10px;
+    background: #fcbf1e;
+    background: -moz-linear-gradient(#fcbf1e, #fff);
+    background: -webkit-linear-gradient(#fcbf1e, #fff);
+    background: -o-linear-gradient(#fcbf1e, #fff);
+}
+.modalDialog>div::-webkit-scrollbar {
+    width: .4em;
+}
+.modalDialog>div::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+.modalDialog>div::-webkit-scrollbar-thumb {
+    background-color: #171616;
+    outline: #708090 solid 1px;
+}
+.modalDialog h2 {
+    font-size: 42px;
+    text-align: center;
+}
+.modalDialog p {
+    font-size: 18px;
+    text-align: center;
+}
+.close {
+    background: #606061;
+    color: #FFF;
+    line-height: 25px;
+    position: absolute;
+    right: 443px;
+    text-align: center;
+    top: 126px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: 700;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+    z-index: 10000000;
+}
+.close:hover {
+    background: #fbcf1e;
+}
+
+    .no-webp #eventsPage, .webp #eventsPage {
+   
+    height: 100%;
+    width: 100%}
+#badmintonDiv, #volleyballDiv {
+   display: inline-block;
+   
+}
+#chessDiv, #tabletennisDiv {
+   display: inline-block;
+}
+.webp #eventsPage {
+    background: url(../photos/newbgs/DesktopHDotherPages1366webp.webp) center no-repeat;
+    background-size: cover;
+}
+.no-webp #eventsPage {
+    background: url(../backuppngs/newBgspng/DesktopHDotherPages1366.png) center no-repeat;
+    background-size: cover;
+}
+#pageName {
+    
+}
+#footballContent {
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: red;
+}
+#footerLogo {
+   
+}
+#pageName p {
+    font-size: 100px;
+    //transform: skew(-31deg);
+    color: #fbcf1e;
+    font-family: Abel, sans-serif!important;
+    font-weight: 100;
+    margin-bottom: 55px;
+}
+.eventsDiv {
+    width: 300px;
+    height: 120px;
+    transform: skew(-31deg)!important;
+    //background: #fbcf1e;
+    border: 3px solid #000;
+}
+.mask2, .menu1, .menu2, .menu3, .menu4, .menu5, .menu6 {
+    width: 56px;
+    height: 57px;
+    border-radius: 50%}
+.mask2, .topleftMenu {
+    width: 60px;
+    height: 60px;
+}
+.topleftMenu {
+    top: 34px;
+    left: 34px;
+    position: fixed;
+    display: block;
+    background-color: transparent;
+    z-index: 20;
+    -webkit-box-shadow: 0 0 5px 0 rgba(252, 223, 103, .75);
+    -moz-box-shadow: 0 0 5px 0 rgba(252, 223, 103, .75);
+    box-shadow: 0 0 5px 0 rgba(252, 223, 103, .75);
+    border-radius: 50%}
+.menu1, .menu2, .menu3, .menu4, .menu5, .menu6 {
+    background-color: #fbcf1e;
+    position: absolute;
+    line-height: 70px;
+    top: 0;
+    left: 0;
+    z-index: 19;
+    color: #171616;
+    text-align: center;
+}
+.menu1 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) .2s;
+}
+.menu2 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) .4s;
+}
+.menu3 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) .6s;
+}
+.menu4 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) 1s;
+}
+.menu5 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) 1.1s;
+}
+.menu6 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) .8s;
+}
+.mask2 {
+    top: 34px;
+    left: 34px;
+    background: #fbcf1e;
+    z-index: 21;
+    color: #171616;
+    text-align: center;
+    line-height: 120px;
+    cursor: pointer;
+    position: fixed;
+}
+.topleftMenu .fa-2x, .topleftMenu .fa-3x {
+    font: normal normal normal 14px/2 FontAwesome;
+    font-size: 2em;
+}
+#footballDiv {
+    display: inline-block;
+    margin-right: 10px;
+}
+#basketballDiv {
+    display: inline-block;
+    margin-right: 10px;
+}  
+#cricketDiv {
+    display: inline-block;
+    margin-right: 10px;
+}   
+#badmintonDiv {
+    display: inline-block;
+    margin-right: 10px;
+}
+#volleyballDiv {
+    display: inline-block;
+    margin-right: 10px;
+}
+#chessDiv {
+    display: inline-block;
+    margin-right: 10px;
+}
+#tabletennisDiv {
+    display: inline-block;
+    margin-right: 10px;
+}
+#badmintonDiv #eventName, #basketballDiv #eventName, #chessDiv #eventName, #cricketDiv #eventName, #footballDiv #eventName, #tabletennisDiv #eventName, #volleyballDiv #eventName {
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: -121px;
+    z-index: 1;
+    background-color: rgba(251, 207, 30, .6);
+   
+}
+.no-webp #badmintonImg, .no-webp #basketballimg, .no-webp #chessImg, .no-webp #cricketImg, .no-webp #footballImg, .no-webp #tableTennisImg, .no-webp #volleyballimg, .webp #badmintonImg, .webp #basketballimg, .webp #chessImg, .webp #cricketImg, .webp #footballImg, .webp #tableTennisImg, .webp #volleyballimg {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#badmintonDiv #eventName p, #basketballDiv #eventName p, #chessDiv #eventName p, #footballDiv #eventName p, #tabletennisDiv #eventName p, #volleyballDiv #eventName p, footballDiv #eventName p {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 19px;
+    color: #000;
+    padding-right: 30px;
+    transform: skew(31deg);
+}
+#cricketDiv #eventName p {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 19px;
+    color: #000;
+    padding-right: 19px;
+    transform: skew(31deg);
+}
+#badmintonDiv #eventName:hover, #basketballDiv #eventName:hover, #chessDiv #eventName:hover, #cricketDiv #eventName:hover, #footballDiv #eventName:hover, #tabletennisDiv #eventName:hover, #volleyballDiv #eventName:hover {
+    opacity: 1;
+}
+.no-webp #basketballimg {
+    background: url(../backuppngs/sports/basketball.png) center;
+    background-size: 100%}
+.no-webp #cricketImg {
+    background: url(../backuppngs/sports/cricket.png) center no-repeat;
+    background-size: 100%}
+.no-webp #footballImg {
+    background: url(../backuppngs/sports/football.png) center no-repeat;
+    background-size: 100%;
+    //transform: skew(31deg);
+}
+.no-webp #badmintonImg {
+    background: url(../backuppngs/sports/badminton.png) center no-repeat;
+    background-size: 100%}
+.no-webp #volleyballimg {
+    background: url(../backuppngs/sports/volleyball.png) center no-repeat;
+    background-size: 100%}
+.no-webp #tableTennisImg {
+    background: url(../backuppngs/sports/tabletennis.png) center no-repeat;
+    background-size: 100%}
+.no-webp #chessImg {
+    background: url(../backuppngs/sports/chess.png) center no-repeat;
+    background-size: 100%}
+.webp #basketballimg {
+    background: url(../photos/updatedPics/basketball.webp) center;
+    background-size: 100%}
+.webp #cricketImg {
+    background: url(../photos/updatedPics/cricket.webp) center no-repeat;
+    background-size: 100%}
+.webp #footballImg {
+    background: url(../photos/updatedPics/football.webp) center no-repeat;
+    background-size: 100%;
+    //transform: skew(31deg);
+}
+.webp #badmintonImg {
+    background: url(../photos/updatedPics/badminton.webp) center no-repeat;
+    background-size: 100%}
+.webp #volleyballimg {
+    background: url(../photos/updatedPics/volleyball.webp) center no-repeat;
+    background-size: 100%}
+.webp #tableTennisImg {
+    background: url(../photos/updatedPics/tabletennis.webp) center no-repeat;
+    background-size: 100%}
+.webp #chessImg {
+    background: url(../photos/updatedPics/chess.webp) center no-repeat;
+    background-size: 100%}
+.sportsdiv{
+    display: inline-block;
+
+}
+#eventsPage{
+    text-align: center;
+}
+.row1{
+margin-right: 60px;
+margin-bottom: 6px;
+}
+.row2{
+    margin-right: 180px;
+    margin-bottom: 6px;
+}
+
+@media only screen and (min-width:1920px) {
+    .no-webp #eventsPage, .nowebp #eventsPage, .webp #eventsPage {
+    
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    
+}
+fadeInLeft:nth-child(1) {
+    animation-delay: .3;
+}
+fadeInLeft:nth-child(2) {
+    animation-delay: .6;
+}
+fadeInLeft:nth-child(3) {
+    animation-delay: .9;
+}
+fadeInLeft:nth-child(4) {
+    animation-delay: .12;
+}
+fadeInLeft:nth-child(5) {
+    animation-delay: .15;
+}
+fadeInLeft:nth-child(6) {
+    animation-delay: .18;
+}
+fadeInLeft:nth-child(7) {
+    animation-delay: .21;
+}
+.webp #eventsPage {
+    background: url(../photos/newbgs/DesktopHDotherPageswebp.webp) center no-repeat;
+    background-size: cover;
+}
+.no-webp #eventsPage, .nowebp #eventsPage {
+    background: url(../backuppngs/newBgspng/DesktopHDotherPages.png) center no-repeat;
+    background-size: cover;
+}
+.close {
+    right: 719px;
+    top: 182px;
+}
+}@media only screen and (max-width :768px) {
+    #badmintonDiv, #cricketDiv {
+    
+}
+#cricketDiv, #volleyballDiv {
+    
+}
+#chessDiv, #volleyballDiv {
+    
+}
+#eventsPage {
+    
+    height: 100%;
+    width: 100%;
+    background: url(../photos/mobilenew2.png) center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+#pageName, .eventsDiv {
+    height: 88px;
+    //background: #fbcf1e;
+}
+#pageName {
+    
+    width: 100px;
+    transform: skew(-31deg)!important;
+    //border: 3px solid #fbcf1e;
+    color: #fbcf1e;
+    margin-top: 30px;
+    font-size: 65px;
+}
+.eventsDiv {
+    width: 126px;
+    transform: skew(-20deg);
+    border: 2px solid #000;
+    
+}
+#badmintonDiv, #chessDiv {
+    width: 25%;
+   
+}
+#footballDiv {
+    width: 25%;
+}
+
+#basketBallDiv {
+    width: 25%;
+  
+}
+#tabletennisDiv {
+    width: 25%;
+    
+   
+}
+#cricketDiv{
+    width: 25%;
+}
+#volleyballDiv{
+    width: 25%;
+}
+#badmintonDiv #eventName, #basketballDiv #eventName, #chessDiv #eventName, #cricketDiv #eventName, #footballDiv #eventName, #tabletennisDiv #eventName, #volleyballDiv #eventName {
+    height: 100%;
+    width: 100%;
+    margin-top: -88px;
+    z-index: 1;
+    background-color: rgba(23, 22, 22, .6);
+}
+.no-webp #badmintonImg, .no-webp #basketballimg, .no-webp #chessImg, .no-webp #cricketImg, .no-webp #footballImg, .no-webp #tableTennisImg, .no-webp #volleyballimg, .webp #badmintonImg, .webp #basketballimg, .webp #chessImg, .webp #cricketImg, .webp #footballImg, .webp #tableTennisImg, .webp #volleyballimg {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#badmintonDiv #eventName p, #basketballDiv #eventName p, #chessDiv #eventName p, #cricketDiv #eventName p, #footballDiv #eventName p, #tabletennisDiv #eventName p, #volleyballDiv #eventName p {
+    text-align: center;
+    font-size: 23px;
+    color: #fff;
+    margin-left: 13px;
+    //transform: skew(-31deg);
+    padding-top: 22px;
+}
+.no-webp #footballImg, .webp #footballImg {
+    //transform: skew(31deg);
+}
+.webp #basketballimg {
+    background: url(../photos/updatedPics/basketball_m.webp) center;
+}
+.webp #cricketImg {
+    background: url(../photos/updatedPics/cricket_m.webp) center no-repeat;
+    background-size: cover;
+}
+.webp #footballImg {
+    background: url(../photos/updatedPics/football_m.webp) center no-repeat;
+    background-size: cover;
+}
+.webp #badmintonImg {
+    background: url(../photos/updatedPics/badminton_m.webp) center no-repeat;
+    background-size: cover;
+}
+.webp #volleyballimg {
+    background: url(../photos/updatedPics/volleyball_m.webp) center no-repeat;
+    background-size: cover;
+}
+.webp #tableTennisImg {
+    background: url(../photos/updatedPics/tabletennis_m.webp) center no-repeat;
+    background-size: cover;
+}
+.webp #chessImg {
+    background: url(../photos/updatedPics/chess_m.webp) center no-repeat;
+    background-size: cover;
+}
+.no-webp #basketballimg {
+    background: url(../backuppngs/sports/basketball_m.png) center;
+}
+.no-webp #cricketImg {
+    background: url(../backuppngs/sports/cricket_m.png) center no-repeat;
+    background-size: cover;
+}
+.no-webp #footballImg {
+    background: url(../backuppngs/sports/football_m.png) center no-repeat;
+    background-size: cover;
+}
+.no-webp #badmintonImg {
+    background: url(../backuppngs/sports/badminton_m.png) center no-repeat;
+    background-size: cover;
+}
+.no-webp #volleyballimg {
+    background: url(../backuppngs/sports/volleyball_m.png) center no-repeat;
+    background-size: cover;
+}
+.no-webp #tableTennisImg {
+    background: url(../backuppngs/sports/tabletennis_m.png) center no-repeat;
+    background-size: cover;
+}
+.no-webp #chessImg {
+    background: url(../backuppngs/sports/chess_m.png) center no-repeat;
+    background-size: cover;
+}
+.mask2, .menu1, .menu2, .menu3, .menu4, .menu5, .menu6, .topleftMenu {
+    width: 57px;
+    height: 56px;
+    border-radius: 50%}
+.mask2, .topleftMenu {
+    width: 60px;
+    height: 60px;
+}
+.topleftMenu {
+    top: 34px;
+    left: 34px;
+    position: fixed;
+    display: block;
+    background-color: transparent;
+    z-index: 20;
+    -webkit-box-shadow: 0 0 5px 0 rgba(252, 223, 103, .75);
+    -moz-box-shadow: 0 0 5px 0 rgba(252, 223, 103, .75);
+    box-shadow: 0 0 5px 0 rgba(252, 223, 103, .75);
+    border-radius: 50%}
+.menu1, .menu2, .menu3, .menu4, .menu5, .menu6 {
+    background-color: #fbcf1e;
+    position: absolute;
+    line-height: 70px;
+    top: 0;
+    left: 0;
+    z-index: 19;
+    color: #171616;
+    text-align: center;
+}
+.menu1 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) .2s;
+}
+.menu2 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) .4s;
+}
+.menu3 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) .6s;
+}
+.menu4 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) 1s;
+}
+.menu5 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) 1.1s;
+}
+.menu6 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) .8s;
+}
+.mask2 {
+    top: 34px;
+    left: 34px;
+    background: #fbcf1e;
+    z-index: 21;
+    color: #171616;
+    text-align: center;
+    line-height: 120px;
+    cursor: pointer;
+    position: fixed;
+}
+.topleftMenu .fa-2x, .topleftMenu .fa-3x {
+    font: normal normal normal 12px/2 FontAwesome;
+    font-size: 2em!important;
+}
+.close {
+    top: 65px;
+    right: 240px;
+}
+.modalDialog>div {
+    width: 200px;
+    height: 500px;
+}
+
+#pageName p{
+    position: absolute;
+    top: 0;
+    left: 303px;
+    font-size: 70px;
+}
+.row1{
+    margin-top: 50px;
+}
+}@media only screen and (max-width :360px) {
+    #cricketDiv, #volleyballDiv {
+
+}
+#chessDiv, #volleyballDiv {
+    
+    
+}
+#eventsPage {
+    
+    
+    height: 100%;
+    width: 100%;
+    background: url(../photos/mobilenew3.png) center no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+#pageName, .eventsDiv {
+    width: 100px;
+    //background: #fbcf1e;
+}
+#pageName {
+    
+    
+    height: 88px;
+    transform: skew(-31deg);
+    //border: 3px solid #fbcf1e;
+    color: #fbcf1e;
+    margin-top: 30px;
+    font-size: 45px;
+}
+.eventsDiv {
+    height: 70px;
+    transform: skew(-31deg)!important;
+    border: 2px solid #000;
+    
+}
+#badmintonDiv, #basketBallDiv, #chessDiv {
+    
+}
+#footballDiv {
+    
+}
+#basketBallDiv {
+    
+}
+#cricketDiv {
+    
+    
+}
+#badmintonDiv {
+    
+  
+}
+#tabletennisDiv {
+    width: 148px;
+   }
+#badmintonDiv #eventName, #basketballDiv #eventName, #chessDiv #eventName, #cricketDiv #eventName, #footballDiv #eventName, #tabletennisDiv #eventName, #volleyballDiv #eventName {
+    height: 100%;
+    width: 100%;
+    margin-top: -70px;
+    z-index: 1;
+    background-color: rgba(23, 22, 22, .6);
+}
+#badmintonDiv #eventName p, #basketballDiv #eventName p, #chessDiv #eventName p, #cricketDiv #eventName p, #footballDiv #eventName p, #tabletennisDiv #eventName p, #volleyballDiv #eventName p {
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    margin-left: -13px;
+    transform: skew(31deg);
+    padding-top: 21px;
+}
+.mask2, .menu1, .menu2, .menu3, .menu4, .menu5, .menu6 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: #171616;
+    text-align: center;
+}
+.topleftMenu {
+    top: 34px;
+    left: 34px;
+    position: fixed;
+    display: block;
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    z-index: 20;
+    -webkit-box-shadow: 0 0 5px 0 rgba(252, 223, 103, .75);
+    -moz-box-shadow: 0 0 5px 0 rgba(252, 223, 103, .75);
+    box-shadow: 0 0 5px 0 rgba(252, 223, 103, .75);
+    border-radius: 50%}
+.menu1, .menu2, .menu3, .menu4, .menu5, .menu6 {
+    background-color: #fbcf1e;
+    position: absolute;
+    line-height: 70px;
+    top: 0;
+    left: 0;
+    z-index: 19;
+}
+.menu1 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) .2s;
+}
+.menu2 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) .4s;
+}
+.menu3 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) .6s;
+}
+.menu4 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) 1s;
+}
+.menu5 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) 1.1s;
+}
+.menu6 {
+    transition: all .5s cubic-bezier(.68, -.55, .265, 1.55) .8s;
+}
+.mask2 {
+    top: 34px;
+    left: 34px;
+    background: #fbcf1e;
+    z-index: 21;
+    line-height: 120px;
+    cursor: pointer;
+    position: fixed;
+}
+.topleftMenu .fa-2x, .topleftMenu .fa-3x {
+    font: normal normal normal 12px/2 FontAwesome;
+    font-size: 23px!important;
+}
+.modalDialog>div {
+    width: 200px;
+    height: 420px;
+    padding-bottom: 40px;
+}
+.close {
+    top: 27px;
+    right: 42px;
+}
+#footballContent {
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: red;
+}
+#pageName p {
+    position: absolute;
+    top: -15px;
+    left: 109px;
+    font-size: 65px;
+}
+}@media only screen and (max-width :320px) {
+    .close {
+    top: 21px;
+    right: 22px;
+}
+}
