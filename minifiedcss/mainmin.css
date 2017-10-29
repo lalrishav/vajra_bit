@@ -126,6 +126,9 @@ background-size: cover;
 #registerButton {
 height: 105px;
 }
+#sponsorButton {
+    height: 105px;
+    }
 #register {
 transform: skew(-31deg);
 background: #fcbf1e;
@@ -135,6 +138,11 @@ border: 3px solid #000;
     position: absolute;
     top: 15px;
     right: 150px;
+}
+#sponsorButton {
+    position: absolute;
+    top: 15px;
+    right: 22px;
 }
 #register p {
 transform: skew(31deg);
@@ -252,6 +260,9 @@ opacity: 0;
     #registerButton {
         right: 25px;
     }
+    #sponsorButton {
+        right: 25px;
+    }
 }
 @media only screen and (max-width:360px) {
     
@@ -290,6 +301,9 @@ background-size: cover;
     font-size: 28px;
 }
 #registerButton {
+    right: 15px;
+}
+#sponsorButton {
     right: 15px;
 }
 #register p {

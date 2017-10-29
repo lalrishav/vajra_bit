@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <meta property=”og:title” content=”VAJRA: The annual sports fest of BIT Mesra” />
+    <meta property=”og:url” content=”http://www.vajrabit.in/about” />
+    <meta property=”og:type” content=”website” />
+    <meta name="theme-color" content="#fcbf1e" />
+    <meta property=”og:description” content=”The annual sports fest of BIT Mesra...” />
+    <meta property=”og:image” content=”http://www.vajrabit.in/logo.png” />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="sponsor_res/sponsor.css">
+</head>
+
+<body>
+    <div class="loader">
+                <div class="sk-cube-grid">
+                    <div class="sk-cube sk-cube1"></div>
+                    <div class="sk-cube sk-cube2"></div>
+                    <div class="sk-cube sk-cube3"></div>
+                    <div class="sk-cube sk-cube4"></div>
+                    <div class="sk-cube sk-cube5"></div>
+                    <div class="sk-cube sk-cube6"></div>
+                    <div class="sk-cube sk-cube7"></div>
+                    <div class="sk-cube sk-cube8"></div>
+                    <div class="sk-cube sk-cube9"></div>
+                </div>
+            </div>
+    <div class="topLeftMenu">
+        <a href="contact.html">
+            <div class="menu1"><i class="fa fa-phone fa-2x"></i></div>
+        </a>
+
+        <a href="team.html">
+            <div class="menu2"><i class="fa fa-users fa-2x"></i></div>
+        </a>
+        <a href="about.html">
+            <div class="menu3"><i class="fa fa-flash fa-2x"></i></div>
+        </a>
+        <a href="events.html">
+            <div class="menu4"><i class="fa fa-futbol-o fa-2x"></i></div>
+        </a>
+
+        <a href="index.html">
+            <div class="menu5"><i class="fa fa-home fa-2x"></i></div>
+        </a>
+
+        <a href="gallery.html">
+            <div class="menu6"><i class="fa fa-camera fa-2x"></i></div>
+        </a>
+
+        <div class="mask2"><i class="fa fa-bars fa-3x"></i></div>
+    </div>
+    <div id="aboutArea">
+        <div id="pageName">
+            <h2>Sponsors</h2>
+        </div>
+        <div class="container">
+            <div class="row1">
+                <div class="sponsor"><a href="https://www.shop.zevenworld.com/" style="text-decoration: none;"><img src="sponsor_res/sponsor_pht/logo1.png"></a>
+                    <p>Online Sportwear <br>Partner</p>
+                </div>
+                <div class="sponsor sponsormob"><img src="sponsor_res/sponsor_pht/logo5.jpg">
+                    <p> Banking Partner</p>
+                </div>
+                <div class="sponsor"><img src="sponsor_res/sponsor_pht/logo6.png">
+                    <p>Dairy Partner</p>
+                </div>
+            </div>
+
+            <div class="row2">
+                <div class="sponsor "><img src="sponsor_res/sponsor_pht/logo2.png">
+                    <p>Magazine Partner</p>
+                </div>
+                <div class="sponsor "><img src="sponsor_res/sponsor_pht/logo3.jpg">
+                    <p>Hindi Print Media Partner</p>
+                </div>
+                <div class="sponsor sponsor4"><img src="sponsor_res/sponsor_pht/logo4.png">
+                    <p>Social Media<br> Partner</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            //Preloader
+            $(window).on('load', function () {
+                console.log('aa');
+                preloaderFadeOutTime = 500;
+                function hidePreloader() {
+                    let preloader = $('.loader');
+                    preloader.fadeOut(preloaderFadeOutTime);
+                }
+                hidePreloader();
+            });
+        });
+    </script>
+
+    <script src="gallery_res/gallery.js"></script>
+</body>
+
+</html>

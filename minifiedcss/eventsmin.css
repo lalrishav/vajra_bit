@@ -103,6 +103,11 @@
     background: -moz-linear-gradient(#fcbf1e, #fff);
     background: -webkit-linear-gradient(#fcbf1e, #fff);
     background: -o-linear-gradient(#fcbf1e, #fff);
+    text-align: left;
+}
+.modalDialog>div>h1{
+  text-align: center;
+  font-size: 42px;
 }
 .modalDialog>div::-webkit-scrollbar {
     width: .4em;
