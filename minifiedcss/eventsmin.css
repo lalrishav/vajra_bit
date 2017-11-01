@@ -164,6 +164,7 @@ td, th {
   h3{
           FONT-SIZE: 25px;
     text-align: center;
+    margin: 5px;
   }
 
     .no-webp #eventsPage, .webp #eventsPage {
