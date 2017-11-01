@@ -92,7 +92,7 @@
     pointer-events: none;
 }
 .modalDialog>div {
-    width: 400px;
+    width: 490px;
     height: 400px;
     overflow-y: auto;
     position: relative;
@@ -132,7 +132,7 @@
     color: #FFF;
     line-height: 25px;
     position: absolute;
-    right: 443px;
+    right: 395px;
     text-align: center;
     top: 126px;
     width: 24px;
@@ -149,6 +149,22 @@
 .close:hover {
     background: #fbcf1e;
 }
+td, th {
+    
+    text-align: center;
+    padding: 8px;
+    border: 1px solid black;
+    margin:0;
+  }
+  table{
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+  
+  h3{
+          FONT-SIZE: 25px;
+    text-align: center;
+  }
 
     .no-webp #eventsPage, .webp #eventsPage {
    
@@ -648,6 +664,10 @@ fadeInLeft:nth-child(7) {
         display: block;
         text-align: center;
     }
+ td,th{
+     padding:2px;
+
+ }
   
 #eventsPageMob { 
     height: 100%;
