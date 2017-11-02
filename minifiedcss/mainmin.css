@@ -123,32 +123,30 @@ background-size: cover;
 background: url(../backuppngs/newBgspng/backgroundwithLogo1366.png) center no-repeat;
 background-size: cover;
 }
-#registerButton {
+#registerButton, #updatesButton {
 height: 105px;
 }
-#sponsorButton {
-    height: 105px;
-    }
-#register {
+
+#register, #update {
 transform: skew(-31deg);
 background: #fcbf1e;
 border: 3px solid #000;
 }
-#registerButton {
+#registerButton, #updatesButton {
     position: absolute;
     top: 15px;
-    right: 150px;
+    right: 100px;
 }
-#sponsorButton {
+#updatesButton {
     position: absolute;
     top: 15px;
-    right: 22px;
+    right: 227px;
 }
-#register p {
+#register p, #update p {
 transform: skew(31deg);
 font-size: 23px;
 }
-#register:hover {
+#register:hover, #update:hover {
 background: #ff0;
 }
 #pagecenter {
@@ -229,6 +227,90 @@ opacity: 1;
 opacity: 0;
 }
 }
+.modalDialog {
+    position: fixed;
+    font-family: Abel, sans-serif;
+    font-weight: 100;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity .4s ease-in;
+    -moz-transition: opacity .4s ease-in;
+    transition: opacity .4s ease-in;
+    pointer-events: none;
+}
+.modalDialog>div {
+    width: 490px;
+    height: 400px;
+    overflow-y: auto;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 30px 15px 35px;
+    border-radius: 10px;
+    background: #fcbf1e;
+    background: -moz-linear-gradient(#fcbf1e, #fff);
+    background: -webkit-linear-gradient(#fcbf1e, #fff);
+    background: -o-linear-gradient(#fcbf1e, #fff);
+    text-align: left;
+}
+.modalDialog>div>h1{
+  text-align: center;
+  font-size: 42px;
+}
+.modalDialog>div::-webkit-scrollbar {
+    width: .4em;
+}
+.modalDialog>div::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+.modalDialog>div::-webkit-scrollbar-thumb {
+    background-color: #171616;
+    outline: #708090 solid 1px;
+}
+.modalDialog h2 {
+    font-size: 42px;
+    text-align: left;
+}
+.modalDialog p {
+    font-size: 18px;
+    text-align: center;
+}
+.close {
+    background: #606061;
+    color: #FFF;
+    line-height: 25px;
+    position: absolute;
+    right: 395px;
+    text-align: center;
+    top: 126px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: 700;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+    z-index: 10000000;
+}
+.close:hover {
+    background: #fbcf1e;
+}
+h3{
+    font-size: 25px;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+}
+li{
+    margin:10px;
+}
 @media only screen and (min-width:1920px) {
     .no-webp #landingPage, .webp #landingPage {
     
@@ -245,7 +327,10 @@ opacity: 0;
     background: url(../backuppngs/newBgspng/backgroundwithLogo1920.png) center no-repeat;
     background-size: cover;
     }
-   
+    .close {
+        right: 667px;
+        top: 179px;
+    }
     }
 @media only screen and (max-width:768px) {
 
@@ -257,11 +342,19 @@ opacity: 0;
     #socialMedia #facebook {
         margin-left: 0px;
     }
-    #registerButton {
+    #registerButton, #updatesButton {
         right: 25px;
     }
     #sponsorButton {
         right: 25px;
+    }
+
+    #updatesButton{
+        right:150px;
+    }
+    .close {
+        top: 66px;
+        right: 95px;
     }
 }
 @media only screen and (max-width:360px) {
@@ -303,11 +396,20 @@ background-size: cover;
 #registerButton {
     right: 15px;
 }
-#sponsorButton {
-    right: 15px;
-}
-#register p {
+ #updatesButton{
+     right: 105px;
+ }
+#register p, #update p {
     font-size: 15px;
+}
+.modalDialog>div {
+    width: 200px;
+    height: 420px;
+    padding-bottom: 40px;
+}
+.close {
+    top: 27px;
+    right: 42px;
 }
 .opBox p {
 font-size: 16px;
