@@ -311,6 +311,15 @@ h4{
 li{
     margin:10px;
 }
+footer{
+    text-align: center;
+    font-size: 25px;
+    color: #fbcf1e;
+}
+footer>a{
+    text-decoration: none;
+    color: #fbcf1e;
+}
 @media only screen and (min-width:1920px) {
     .no-webp #landingPage, .webp #landingPage {
     
